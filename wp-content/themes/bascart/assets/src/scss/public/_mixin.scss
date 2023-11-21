@@ -1,0 +1,128 @@
+$huge-device: 1600px;
+$big-device: 1300px;
+$medium-device: 1199px;
+$desktop-width: 1024px;
+$potrait-tablet: 991px;
+$tablet: 767px;
+$small-device: 480px;
+$tiny-device: 320px;
+
+@mixin huge-device {
+
+	@media (min-width: #{$huge-device}) {
+		@content;
+	}
+}
+
+@mixin big-device {
+
+	@media (min-width: #{$big-device}) {
+		@content;
+	}
+}
+
+@mixin medium-desktop {
+
+	@media (min-width: #{$potrait-tablet + 1px}) and (max-width: #{$medium-device}) {
+		@content;
+	}
+}
+
+@mixin small-desktop {
+
+	@media (min-width: #{$tablet + 1px}) and (max-width: #{$desktop-width}) {
+		@content;
+	}
+}
+
+@mixin desktop-upper {
+
+	@media (min-width: #{$desktop-width + 1px}) {
+		@content;
+	}
+}
+
+@mixin potrait-tablet {
+
+	@media (max-width: #{$potrait-tablet}) {
+		@content;
+	}
+}
+
+@mixin potrait-tablet-upper {
+
+	@media (min-width: #{$potrait-tablet + 1px}) {
+		@content;
+	}
+}
+
+@mixin tablet {
+
+	@media (max-width: #{$tablet}) {
+		@content;
+	}
+}
+
+@mixin small-device {
+
+	@media (max-width: #{$small-device}) {
+		@content;
+	}
+}
+
+@mixin tiny-device {
+
+	@media (max-width: #{$tiny-device}) {
+		@content;
+	}
+}
+
+/* Elementor devices */
+@mixin elementor-tablet {
+
+	@media (max-width: #{$desktop-width}) {
+		@content;
+	}
+}
+
+@mixin elementor-mobile {
+
+	@media (max-width: #{$tablet}) {
+		@content;
+	}
+}
+
+
+//usage: @include shift([property],[duration],[easing]);
+@mixin transition($property: all, $duration: 0.4s, $ease: ease) {
+	transition: $property $duration $ease;
+}
+
+@mixin equal-size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+@mixin equal-size-lineHeight($width, $height: $width, $Lheight: $width) {
+	width: $width;
+	height: $height;
+	line-height: $Lheight;
+}
+
+@mixin height-lineheight($height: $height, $blineHeight: $height) {
+	height: $height;
+	line-height: $blineHeight;
+}
+
+@mixin remove-list-sltye {
+	list-style: none;
+
+	margin: {
+		top: 0;
+		bottom: 0;
+	}
+
+	padding: {
+		left: 0;
+	}
+}

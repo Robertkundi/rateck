@@ -1,0 +1,476 @@
+@mixin potrait-tablet-upper {
+
+	@media (min-width: #{$potrait-tablet + 1px}) {
+		@content;
+	}
+}
+
+.ekit-wid-con {
+
+	.ekit-instagram-area {
+		padding: {
+			left: 15px;
+			right: 15px;
+		}
+	}
+
+	.layout-grid {
+
+		&.ekit-insta-row {
+			display: flex;
+			flex-wrap: wrap;
+
+			margin: {
+				left: -15px;
+				right: -15px;
+			}
+		}
+
+		@for $i from 1 through 12 {
+			.ekit-insta-col-#{$i} {
+				max-width: ((100% / 12) * $i);
+				flex: 0 0 ((100% / 12) * $i);
+
+				padding: {
+					left: 15px;
+					right: 15px;
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+
+			@for $i from 1 through 12 {
+				.ekit-insta-col-#{$i} {
+					max-width: 50%;
+					flex: 0 0 50%;
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+
+			@for $i from 1 through 12 {
+				.ekit-insta-col-#{$i} {
+					max-width: 100%;
+					flex: 0 0 100%;
+				}
+			}
+		}
+
+		@include potrait-tablet-upper {
+
+			&.ekit-no-wrap {
+				flex-wrap: nowrap;
+			}
+
+			&.ekit-justify-content-between {
+				justify-content: space-between;
+			}
+		}
+
+		.ekit-insta-col-auto {
+			padding: {
+				left: 15px;
+				right: 15px;
+			}
+
+			flex: 1 1 auto;
+		}
+	}
+
+	.layout-masonary {
+		column-gap: 30px;
+
+		@for $i from 1 through 12 {
+			&.ekit-insta-col-#{$i} {
+				column-count: 12 / $i;
+			}
+		}
+
+		@media (max-width: 1024px) {
+
+			@for $i from 1 through 12 {
+				&.ekit-insta-col-#{$i} {
+					column-count: 2;
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+
+			@for $i from 1 through 12 {
+				&.ekit-insta-col-#{$i} {
+					column-count: 1;
+				}
+			}
+		}
+
+		.ekit-ins-feed {
+			break-inside: avoid;
+		}
+	}
+
+	.ekit-insta-content-holder {
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 30px;
+
+		&.ekit-insta-style-tiles {
+
+			.ekit-instagram-feed-posts-item-content {
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translateY(-20%);
+				width: 100%;
+				z-index: 5;
+				opacity: 0;
+
+				@include transition;
+				text-align: center;
+			}
+
+			&:hover {
+
+				.ekit-instagram-feed-posts-item-content {
+					opacity: 1;
+					transform: translateY(-50%);
+					backface-visibility: hidden;
+				}
+
+				.insta-media {
+
+					.photo-thumb {
+						transform: scale(1.1);
+						filter: grayscale(1);
+					}
+				}
+			}
+
+			.ekit-insta-statics-count {
+
+				svg {
+
+					path {
+						fill: $white;
+					}
+				}
+			}
+
+			.ekit-insta-captions {
+				color: $white;
+			}
+
+			.insta-media {
+
+				>a {
+					display: block;
+					position: relative;
+					overflow: hidden;
+				}
+
+				.photo-thumb {
+					transition: transform 0.3s ease, filter 0.3s;
+					transform: scale(1);
+					backface-visibility: hidden;
+				}
+			}
+		}
+
+		.ekit-insta-hover-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			@include equal-size(100%);
+			opacity: 0;
+
+			@include transition;
+			pointer-events: none;
+		}
+
+		&:hover {
+
+			.ekit-insta-hover-overlay {
+				background-color: rgba($color: $black, $alpha: 0.8);
+				opacity: 1;
+			}
+		}
+
+		&.ekit-insta-style-classic {
+			border-radius: 3px;
+			border: 1px solid #e6e6e6;
+			background-color: $white;
+		}
+
+		.insta-media {
+
+			.photo-thumb {
+				width: 100%;
+			}
+		}
+	}
+
+	.ekit-nsta-user-info {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		padding: 16px;
+	}
+
+	.ekit-insta-user-details {
+		display: flex;
+		align-items: center;
+		color: $black;
+
+		&:hover {
+
+			.ekit-insta-user-name {
+				text-decoration: underline;
+				color: #e1306c;
+			}
+
+			.ekit-insta-dataandtime {
+				text-decoration: underline;
+				color: #833ab4;
+			}
+		}
+
+		.ekit-insta-user-image {
+
+			@include equal-size(44px);
+			overflow: hidden;
+			position: relative;
+			background: linear-gradient(40deg, #833ab4 15%, #e1306c 50%, #f56040 85%);
+			margin-right: 12px;
+			padding: 2px;
+
+			>img {
+				border: 1px solid #fafafa;
+			}
+
+			&.circle {
+				border-radius: 50%;
+
+				>img {
+					border-radius: inherit;
+				}
+			}
+		}
+	}
+
+	.ekit-insta-username-and-time {
+		line-height: 1;
+
+		.ekit-insta-user-name {
+			display: block;
+			font-size: rem(14px);
+			font-weight: 600;
+			line-height: 1;
+		}
+
+		.ekit-insta-dataandtime {
+			font-size: rem(10px);
+			color: rgba($color: $black, $alpha: 0.6);
+		}
+	}
+
+	.ekit-instagram-feed-posts-item-content {
+		padding: 16px;
+	}
+
+	// .ekit-insta-comments-box {
+	//     margin-bottom: 12px;
+	// }
+
+	.ekit-insta-captions-box {
+		margin-top: 12px;
+	}
+
+	.ekit-insta-statics-count {
+		display: inline-block;
+		color: $black;
+
+		@include transition;
+
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+
+		&.ekit-insta-statics-comment {
+
+			&:hover {
+				color: #f56040;
+
+				>svg {
+
+					path {
+						fill: #f56040;
+					}
+				}
+			}
+		}
+
+		&.ekit-insta-statics-favourite {
+
+			&:hover {
+				color: #833ab4;
+
+				>svg {
+
+					path {
+						fill: #833ab4;
+					}
+				}
+			}
+		}
+
+		>svg {
+
+			@include equal-size(24px);
+			vertical-align: middle;
+
+			path {
+
+				@include transition;
+			}
+		}
+
+		.ekit-insta-statics-value {
+			margin-left: 6px;
+			font-size: rem(14px);
+		}
+	}
+
+	.ekit-insta-captions {
+		color: $black;
+		font-size: rem(14px);
+	}
+
+
+	.ekit-instagram-feed-item-source-icon {
+		vertical-align: middle;
+		display: inline-block;
+
+		svg {
+
+			path {
+
+				@include transition;
+			}
+		}
+	}
+
+	.insta-follow-btn-area {
+
+		>.btn {
+			background-color: #f56040;
+			border-radius: 21px;
+			box-shadow: 0 7px 15px 0 rgba(#f56040, 0.3);
+			padding: 10px 35px;
+			font-size: rem(14px);
+			font-weight: 500;
+			color: #fff;
+			border: 0 solid #000;
+		}
+	}
+
+	.ekit-insta-statics-favourite {
+
+		svg {
+			transform: scale(1.1);
+		}
+	}
+
+	.instafeed-container {
+		position: relative;
+		overflow: hidden;
+
+		&::before {
+			position: absolute;
+			content: "";
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: $black;
+			opacity: 0;
+
+			@include transition;
+			z-index: 1;
+		}
+
+		> img {
+			transform: scale(1.02);
+
+			@include transition;
+		}
+
+		.description-container {
+			position: absolute;
+
+			@include transition;
+			bottom: 0%;
+			left: 0;
+			z-index: 2;
+			padding: 30px;
+			width: 100%;
+			opacity: 0;
+			visibility: hidden;
+
+			> span {
+				display: block;
+				color: $white;
+				line-height: 1;
+
+				> i {
+					padding-right: 6px;
+					display: inline-block;
+				}
+
+				&:not(:last-child) {
+					margin-bottom: 15px;
+				}
+			}
+		}
+
+		&:hover {
+
+			&::before {
+				opacity: 0.7;
+			}
+
+			.description-container {
+				opacity: 1;
+				visibility: visible;
+			}
+
+			> img {
+				transform: scale(1);
+			}
+		}
+	}
+
+	.instagram-gallery {
+
+		.owl-item {
+
+			> a {
+				margin-right: 6px;
+				display: block;
+			}
+		}
+	}
+
+	.indtafeed-gallery {
+
+		>  a {
+			float: left;
+			width: calc(100% / 6);
+			display: block;
+			border: 0.5px solid $white;
+		}
+	}
+}

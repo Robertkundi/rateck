@@ -1,0 +1,28 @@
+
+---Downloaded files---
+The import files for: Bascart Gadget were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/rateck
+Data file = /Applications/AMPPS/www/rateck/wp-content/uploads/2023/11/demo-content-import-file_2023-11-12__03-41-58.xml
+Widget file = /Applications/AMPPS/www/rateck/wp-content/uploads/2023/11/demo-widgets-import-file_2023-11-12__03-41-58.json
+Customizer file = /Applications/AMPPS/www/rateck/wp-content/uploads/2023/11/demo-customizer-import-file_2023-11-12__03-41-58.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Widget Area : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

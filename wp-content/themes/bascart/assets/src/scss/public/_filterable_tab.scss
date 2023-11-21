@@ -1,0 +1,14 @@
+// Filterable Product List - start
+.filtered-product-list {
+	opacity: 0;
+	display: none;
+	visibility: hidden;
+	transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+
+	&.active {
+		opacity: 1;
+		display: flex;
+		visibility: visible;
+	}
+}
+// Filterable Product List - end

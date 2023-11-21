@@ -1,0 +1,27 @@
+.bascart-advanced-slider .widgetarea_warper_edit {
+    right: 30px;
+    top: 3px;
+}
+
+.shop-loop-thumb {
+    line-height: 1;
+}
+
+.shop-loop-thumb + img {
+    display: none;
+}
+
+.woocommerce ul.products li.product a img {
+    margin: 0;
+}
+
+.style2 .add-to-cart-hover-box,
+.style5.products .product .add-to-cart-hover-box {
+    display: none !important;
+}
+
+.style2 .footer-action-button-style-2 .add-to-cart-hover-box {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+}

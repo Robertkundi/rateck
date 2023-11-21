@@ -1,0 +1,42 @@
+/*
+Theme Name: Bascart
+Theme URI: https://themeforest.net/user/themewinter/portfolio
+Author: Themewinter
+Author URI: https://themewinter.com/
+Description: Bascart - Modern Event WordPress Theme..
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: bascart
+Tags: theme-options, post-formats, featured-images
+*/
+.bascart-slider-wrapper {
+	margin: 20px;
+	overflow: hidden;
+}
+
+.rtl .ant-drawer-right .ant-drawer-content-wrapper {
+	right: auto !important;
+	left: 0;
+}
+
+.rtl .ant-drawer-close {
+	right: auto;
+	left: 0;
+}
+
+.rtl .ant-drawer-content .shopengine-dashboard-save-btn .eicon-elementor + span,
+.rtl .shopengine-admin-dashboard .shopengine-dashboard-save-btn .eicon-elementor + span {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+.rtl .ant-btn > .anticon + span,
+.rtl .ant-btn > span + .anticon {
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+.dokan-template-content {
+	padding: 80px 0;
+}

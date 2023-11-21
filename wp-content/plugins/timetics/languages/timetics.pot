@@ -1,0 +1,4089 @@
+# Copyright (C) 2023 Arraytics
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Timetics 1.0.13\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/timetics\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-02T09:52:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: timetics\n"
+
+#. Plugin Name of the plugin
+#: core/admin/menu.php:114
+#: core/admin/menu.php:115
+msgid "Timetics"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://arraytics.com/timetics/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Schedule, Appointment and Seat Booking plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "Arraytics"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://arraytics.com/"
+msgstr ""
+
+#. translators: Error Message
+#: base/api.php:56
+msgid "%s can't be empty"
+msgstr ""
+
+#: base/forward-calls.php:46
+msgid "Call to undefined method %s::%s()"
+msgstr ""
+
+#: base/importer.php:73
+msgid "You must provide a valid file type"
+msgstr ""
+
+#: base/post-model.php:50
+#: base/post-model.php:63
+msgid "Undefined property %s"
+msgstr ""
+
+#: base/role.php:54
+msgid "Staff"
+msgstr ""
+
+#: base/role.php:75
+msgid "Timetics Customer"
+msgstr ""
+
+#: bootstrap.php:31
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: bootstrap.php:38
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: core/admin/hooks.php:69
+msgid "Timetics requires WooCommerce to enable woocommerce integration. You can download <a href=\"https://wordpress.org/plugins/woocommerce/\" target=\"_blank\">WooCommerce</a> here."
+msgstr ""
+
+#: core/admin/hooks.php:118
+#: core/admin/menu.php:86
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/src/admin/pages/settings/index.js:80
+msgid "Settings"
+msgstr ""
+
+#: core/admin/hooks.php:237
+#: core/admin/hooks.php:241
+msgid "New meeting scheduled!"
+msgstr ""
+
+#: core/admin/hooks.php:238
+#: core/admin/hooks.php:247
+#: core/admin/hooks.php:263
+msgid "Hi {%customer_name%}"
+msgstr ""
+
+#: core/admin/hooks.php:238
+#: core/admin/hooks.php:242
+msgid "A new meeting has been scheduled."
+msgstr ""
+
+#: core/admin/hooks.php:242
+#: core/admin/hooks.php:251
+#: core/admin/hooks.php:255
+#: core/admin/hooks.php:259
+#: core/admin/hooks.php:267
+msgid "Hi {%host_name%}"
+msgstr ""
+
+#: core/admin/hooks.php:246
+#: core/admin/hooks.php:250
+msgid "Meeting cancelled"
+msgstr ""
+
+#: core/admin/hooks.php:247
+#: core/admin/hooks.php:251
+msgid "{%meeting_title%} has been canceled."
+msgstr ""
+
+#: core/admin/hooks.php:254
+#: core/admin/hooks.php:258
+msgid "Meeting rescheduled!"
+msgstr ""
+
+#: core/admin/hooks.php:255
+#: core/admin/hooks.php:259
+msgid "{%meeting_title%} has been rescheduled"
+msgstr ""
+
+#: core/admin/hooks.php:262
+#: core/admin/hooks.php:266
+msgid "Meeting time reminder"
+msgstr ""
+
+#: core/admin/hooks.php:263
+#: core/admin/hooks.php:267
+msgid "{%meeting_title%} at {%meeting_date%} {%meeting_time%}"
+msgstr ""
+
+#: core/admin/menu.php:50
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:48
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:78
+#: assets/src/admin/pages/overview/index.js:210
+#: assets/src/admin/pages/staff/Update.js:96
+msgid "Overview"
+msgstr ""
+
+#: core/admin/menu.php:57
+msgid "Meetings"
+msgstr ""
+
+#: core/admin/menu.php:64
+msgid "Staff Members"
+msgstr ""
+
+#: core/admin/menu.php:72
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:28
+#: assets/src/admin/pages/customers/TableHeader.js:32
+msgid "Bookings"
+msgstr ""
+
+#: core/admin/menu.php:79
+msgid "Customers"
+msgstr ""
+
+#: core/admin/menu.php:92
+msgid "My Profile"
+msgstr ""
+
+#: core/admin/menu.php:99
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:18
+msgid "Shortcodes"
+msgstr ""
+
+#: core/admin/menu.php:106
+#: utils/pro-awareness/pro-awareness.php:207
+msgid "Setup Wizard"
+msgstr ""
+
+#: core/admin/menu.php:158
+#: assets/js/dashboard.js:96
+#: assets/src/admin/components/GoProButton.js:19
+msgid "Go Pro"
+msgstr ""
+
+#: core/appointments/api-appointment-taxonomy.php:130
+msgid "Category list"
+msgstr ""
+
+#: core/appointments/api-appointment-taxonomy.php:232
+msgid "Category doesn't exist"
+msgstr ""
+
+#: core/appointments/api-appointment-taxonomy.php:238
+msgid "Successfully deleted, appointment category"
+msgstr ""
+
+#: core/appointments/api-appointment-taxonomy.php:258
+msgid "Category id required"
+msgstr ""
+
+#: core/appointments/api-appointment-taxonomy.php:270
+msgid "No category exists."
+msgstr ""
+
+#: core/appointments/api-appointment-taxonomy.php:276
+msgid "Successfully deleted %d out of %d categories"
+msgstr ""
+
+#: core/appointments/api-appointment.php:317
+#: core/appointments/api-appointment.php:384
+#: core/appointments/api-appointment.php:568
+#: core/bookings/api-booking.php:257
+#: core/staffs/api-staff.php:333
+#: core/staffs/api-staff.php:371
+msgid "Something went wrong"
+msgstr ""
+
+#: core/appointments/api-appointment.php:428
+#: core/appointments/api-appointment.php:453
+#: core/appointments/api-appointment.php:494
+#: core/appointments/api-appointment.php:529
+#: core/appointments/api-appointment.php:590
+msgid "Invalid appointment id."
+msgstr ""
+
+#: core/appointments/api-appointment.php:462
+msgid "Successfully retrieved appointments"
+msgstr ""
+
+#: core/appointments/api-appointment.php:485
+msgid "You are not allowed to delete this meeting."
+msgstr ""
+
+#: core/appointments/api-appointment.php:503
+msgid "Successfully deleted appointment"
+msgstr ""
+
+#: core/appointments/api-appointment.php:542
+msgid "Successfully deleted all appointments"
+msgstr ""
+
+#: core/appointments/api-appointment.php:604
+msgid "Successfully duplicated appointment"
+msgstr ""
+
+#: core/appointments/api-appointment.php:660
+msgid "You are not allowed to update this meeting."
+msgstr ""
+
+#: core/appointments/api-appointment.php:701
+msgid "Your timezone is invaid."
+msgstr ""
+
+#: core/appointments/api-appointment.php:775
+msgid "Succssfully %s appointment"
+msgstr ""
+
+#: core/appointments/api-appointment.php:849
+msgid "is not connected to google meet. Please connect to google meet then try again"
+msgstr ""
+
+#: core/appointments/api-appointment.php:854
+msgid "is not connected to zoom. Please connect to zoom then try again"
+msgstr ""
+
+#: core/appointments/hooks.php:65
+#: core/appointments/hooks.php:67
+msgid "Timetics Appointments"
+msgstr ""
+
+#: core/appointments/hooks.php:66
+msgid "Timetics Appointment"
+msgstr ""
+
+#: core/appointments/hooks.php:68
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:203
+msgid "Add New"
+msgstr ""
+
+#: core/appointments/hooks.php:69
+msgid "Add New Timetics Appointment"
+msgstr ""
+
+#: core/appointments/hooks.php:70
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/bookings/TableHeader.js:39
+#: assets/src/admin/pages/meeting/MeetingCard.js:272
+#: assets/src/admin/pages/meeting/steps/Integrations.js:167
+#: assets/src/admin/pages/meeting/steps/Integrations.js:207
+#: assets/src/admin/pages/meeting/steps/Integrations.js:245
+msgid "Edit"
+msgstr ""
+
+#: core/appointments/hooks.php:71
+msgid "Edit Timetics Appointment"
+msgstr ""
+
+#: core/appointments/hooks.php:72
+msgid "New Timetics Appointment"
+msgstr ""
+
+#: core/appointments/hooks.php:73
+msgid "View"
+msgstr ""
+
+#: core/appointments/hooks.php:74
+msgid "View Timetics Appointment"
+msgstr ""
+
+#: core/appointments/hooks.php:75
+msgid "Search Timetics Appointments"
+msgstr ""
+
+#: core/appointments/hooks.php:76
+msgid "No timetics appointments found"
+msgstr ""
+
+#: core/appointments/hooks.php:77
+msgid "No timetics appointments found in trash"
+msgstr ""
+
+#: core/appointments/hooks.php:78
+msgid "Parent Timetics Appointment"
+msgstr ""
+
+#: core/appointments/hooks.php:101
+#: core/appointments/hooks.php:104
+msgid "Appointment categories"
+msgstr ""
+
+#: core/appointments/hooks.php:102
+#: core/appointments/hooks.php:103
+msgid "Appointment category"
+msgstr ""
+
+#: core/appointments/hooks.php:105
+msgid "Parent Genre"
+msgstr ""
+
+#: core/appointments/hooks.php:106
+msgid "Parent Genre:"
+msgstr ""
+
+#: core/appointments/hooks.php:107
+msgid "New Genre Name"
+msgstr ""
+
+#: core/appointments/hooks.php:108
+msgid "Add New Genre"
+msgstr ""
+
+#: core/appointments/hooks.php:109
+msgid "Edit Genre"
+msgstr ""
+
+#: core/appointments/hooks.php:110
+msgid "Update Genre"
+msgstr ""
+
+#: core/appointments/hooks.php:111
+msgid "View Genre"
+msgstr ""
+
+#: core/appointments/hooks.php:112
+msgid "Separate genres with commas"
+msgstr ""
+
+#: core/appointments/hooks.php:113
+msgid "Add or remove genres"
+msgstr ""
+
+#: core/appointments/hooks.php:114
+msgid "Choose from the most used genres"
+msgstr ""
+
+#: core/appointments/hooks.php:115
+msgid "Popular Genres"
+msgstr ""
+
+#: core/appointments/hooks.php:116
+msgid "Search Genres"
+msgstr ""
+
+#: core/appointments/hooks.php:117
+msgid "Genre Not Found"
+msgstr ""
+
+#: core/appointments/hooks.php:118
+msgid "No genres"
+msgstr ""
+
+#: core/appointments/hooks.php:119
+msgid "Genres list"
+msgstr ""
+
+#: core/appointments/hooks.php:120
+msgid "Genres list navigation"
+msgstr ""
+
+#: core/bookings/api-booking.php:222
+#: core/bookings/api-booking.php:300
+#: core/bookings/api-booking.php:368
+#: core/bookings/api-booking.php:572
+msgid "Invalid booking id."
+msgstr ""
+
+#: core/bookings/api-booking.php:277
+msgid "Recurring booking limit exit"
+msgstr ""
+
+#: core/bookings/api-booking.php:309
+msgid "Custom Field Booking Restricted "
+msgstr ""
+
+#: core/bookings/api-booking.php:334
+#: assets/js/frontend.js:403
+#: assets/src/frontend/pages/bookings/BookingStatus.js:77
+msgid "Something went wrong, Please try again."
+msgstr ""
+
+#: core/bookings/api-booking.php:344
+#: core/bookings/api-booking.php:382
+msgid "Successfully deleted booking"
+msgstr ""
+
+#: core/bookings/api-booking.php:523
+msgid "Your booking timezone is invalid"
+msgstr ""
+
+#: core/bookings/api-booking.php:528
+msgid "Your meeting timezone is invalid. Please update your meeting timezone with proper timezone."
+msgstr ""
+
+#: core/bookings/api-booking.php:547
+msgid "Get all entries"
+msgstr ""
+
+#. translators: Action
+#: core/bookings/api-booking.php:617
+msgid "Payment %s"
+msgstr ""
+
+#: core/bookings/api-booking.php:694
+msgid "%s time slot is not available"
+msgstr ""
+
+#: core/bookings/api-booking.php:704
+msgid "Couldn't possible to book. Plese try another time."
+msgstr ""
+
+#: core/bookings/api-booking.php:745
+msgid "This booking alreay canceled"
+msgstr ""
+
+#. translators: Action
+#: core/bookings/api-booking.php:858
+msgid "Successfully %s booking"
+msgstr ""
+
+#: core/bookings/api-booking.php:962
+msgid "You are not allowed to delete this booking."
+msgstr ""
+
+#: core/customers/api-customer.php:182
+#: core/customers/api-customer.php:291
+#: core/customers/api-customer.php:315
+#: core/customers/api-customer.php:355
+#: core/customers/api-customer.php:517
+msgid "Invalid customer id."
+msgstr ""
+
+#: core/customers/api-customer.php:331
+#: core/customers/api-customer.php:373
+msgid "Successfully deleted customer"
+msgstr ""
+
+#. translators: Action
+#: core/customers/api-customer.php:456
+msgid "Successfully %s customer"
+msgstr ""
+
+#: core/dummy-data/api-faker.php:74
+msgid "Successfully generated dummy data"
+msgstr ""
+
+#: core/emails/re-invite-staff.php:45
+msgid "Re Invitation Subject"
+msgstr ""
+
+#: core/emails/re-invite-staff.php:54
+msgid "Re Invitation Staff"
+msgstr ""
+
+#: core/frontend/shortcode.php:98
+msgid "You are not logged in"
+msgstr ""
+
+#: core/frontend/shortcode.php:98
+msgid "Login"
+msgstr ""
+
+#: core/frontend/templates/meeting-list.php:22
+msgid "All Department"
+msgstr ""
+
+#: core/frontend/templates/meeting-list.php:33
+msgid "All Staff"
+msgstr ""
+
+#: core/frontend/templates/meeting-list.php:115
+msgid "Book Appointment"
+msgstr ""
+
+#: core/frontend/templates/meeting-list.php:123
+msgid "No meetings found"
+msgstr ""
+
+#: core/services/api-service.php:151
+#: core/services/api-service.php:174
+#: core/services/api-service.php:202
+msgid "Invalid service id."
+msgstr ""
+
+#: core/services/api-service.php:212
+msgid "Successfully deleted service"
+msgstr ""
+
+#: core/services/api-service.php:287
+msgid "Succssfully created service"
+msgstr ""
+
+#: core/services/service-taxonomy.php:35
+#: core/services/service-taxonomy.php:36
+#: core/services/service-taxonomy.php:45
+msgid "Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:37
+msgid "Search Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:38
+msgid "All Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:39
+msgid "Parent Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:40
+msgid "Parent Category:"
+msgstr ""
+
+#: core/services/service-taxonomy.php:41
+msgid "Edit Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:42
+msgid "Update Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:43
+msgid "Add New Category"
+msgstr ""
+
+#: core/services/service-taxonomy.php:44
+msgid "New Category Name"
+msgstr ""
+
+#: core/settings/api-settings.php:90
+msgid "Get all settings"
+msgstr ""
+
+#: core/settings/api-settings.php:113
+msgid "Settings successfully updated"
+msgstr ""
+
+#: core/settings/api-settings.php:201
+msgid "Successfully updated business"
+msgstr ""
+
+#: core/settings/settings.php:89
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:20
+msgid "Patients"
+msgstr ""
+
+#: core/settings/settings.php:90
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:12
+msgid "Doctors"
+msgstr ""
+
+#: core/settings/settings.php:93
+msgid "Students"
+msgstr ""
+
+#: core/settings/settings.php:94
+msgid "Teachers"
+msgstr ""
+
+#: core/settings/settings.php:117
+msgid "Doctors/Health clinic"
+msgstr ""
+
+#: core/settings/settings.php:121
+msgid "Tutor and education center"
+msgstr ""
+
+#: core/settings/settings.php:125
+msgid "Others"
+msgstr ""
+
+#: core/staffs/api-staff.php:160
+msgid "Invitation Email send successfully"
+msgstr ""
+
+#: core/staffs/api-staff.php:163
+msgid "Staff ID missing"
+msgstr ""
+
+#: core/staffs/api-staff.php:233
+#: core/staffs/api-staff.php:357
+#: core/staffs/api-staff.php:394
+#: core/staffs/api-staff.php:429
+#: core/staffs/api-staff.php:468
+#: core/staffs/api-staff.php:495
+msgid "Invalid staff id."
+msgstr ""
+
+#: core/staffs/api-staff.php:405
+#: core/staffs/api-staff.php:447
+msgid "Successfully deleted staff"
+msgstr ""
+
+#: core/staffs/api-staff.php:525
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: core/staffs/api-staff.php:534
+msgid "Successfully disconnected"
+msgstr ""
+
+#: core/staffs/api-staff.php:598
+msgid "Current password does not match"
+msgstr ""
+
+#. translators: Action
+#: core/staffs/api-staff.php:629
+msgid "Successfully %s staff"
+msgstr ""
+
+#: core/staffs/hooks.php:99
+msgid "Remove from staff"
+msgstr ""
+
+#: core/staffs/hooks.php:99
+msgid "Make staff"
+msgstr ""
+
+#: core/staffs/hooks.php:190
+msgid "Welcome to %s oboarding !"
+msgstr ""
+
+#: core/staffs/hooks.php:203
+msgid "Staff onboard skip successfully."
+msgstr ""
+
+#: templates/emails/cancel-event.php:50
+#: templates/emails/customer-booking-reminder.php:62
+#: templates/emails/new-event-customer.php:88
+#: templates/emails/new-event.php:78
+#: templates/emails/staff-booking-reminder.php:61
+#: templates/emails/update-event.php:63
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/emails/cancel-event.php:53
+msgid "Meeting has been canceled"
+msgstr ""
+
+#: templates/emails/cancel-event.php:57
+#: templates/emails/new-event-customer.php:95
+#: templates/emails/new-event.php:85
+#: templates/emails/update-event.php:70
+msgid "Meeting Name:"
+msgstr ""
+
+#: templates/emails/cancel-event.php:64
+#: templates/emails/customer-booking-reminder.php:69
+#: templates/emails/new-event.php:92
+#: templates/emails/staff-booking-reminder.php:68
+#: templates/emails/update-event.php:77
+msgid "Invitee:"
+msgstr ""
+
+#: templates/emails/cancel-event.php:72
+#: templates/emails/customer-booking-reminder.php:77
+#: templates/emails/new-event-customer.php:110
+#: templates/emails/new-event.php:100
+#: templates/emails/staff-booking-reminder.php:76
+#: templates/emails/update-event.php:85
+msgid "Date and time:"
+msgstr ""
+
+#: templates/emails/cancel-event.php:73
+#: templates/emails/customer-booking-reminder.php:78
+#: templates/emails/staff-booking-reminder.php:77
+#: templates/emails/update-event.php:86
+msgid "%s, %s %s"
+msgstr ""
+
+#: templates/emails/cancel-event.php:79
+#: templates/emails/customer-booking-reminder.php:50
+#: templates/emails/customer-booking-reminder.php:84
+#: templates/emails/new-event-customer.php:63
+#: templates/emails/new-event-customer.php:75
+#: templates/emails/new-event-customer.php:117
+#: templates/emails/new-event-customer.php:128
+#: templates/emails/new-event.php:57
+#: templates/emails/new-event.php:67
+#: templates/emails/new-event.php:107
+#: templates/emails/staff-booking-reminder.php:50
+#: templates/emails/staff-booking-reminder.php:83
+#: templates/emails/update-event.php:51
+#: templates/emails/update-event.php:92
+msgid "Location:"
+msgstr ""
+
+#: templates/emails/cancel-event.php:83
+#: templates/emails/customer-booking-reminder.php:53
+#: templates/emails/customer-booking-reminder.php:88
+#: templates/emails/new-event-customer.php:66
+#: templates/emails/new-event-customer.php:121
+#: templates/emails/new-event.php:60
+#: templates/emails/new-event.php:111
+#: templates/emails/staff-booking-reminder.php:53
+#: templates/emails/staff-booking-reminder.php:87
+#: templates/emails/update-event.php:54
+#: templates/emails/update-event.php:96
+msgid "Joining link:"
+msgstr ""
+
+#: templates/emails/cancel-event.php:91
+#: templates/emails/customer-booking-reminder.php:96
+#: templates/emails/new-event-customer.php:139
+#: templates/emails/new-event.php:120
+#: templates/emails/staff-booking-reminder.php:97
+#: templates/emails/update-event.php:103
+msgid "Invitee Time Zone:"
+msgstr ""
+
+#: templates/emails/cancel-event.php:98
+#: templates/emails/customer-booking-reminder.php:102
+#: templates/emails/new-event-customer.php:161
+#: templates/emails/new-event.php:127
+#: templates/emails/new-staff.php:29
+#: templates/emails/staff-booking-reminder.php:103
+#: templates/emails/update-event.php:109
+msgid "Thank you!"
+msgstr ""
+
+#: templates/emails/new-event-customer.php:91
+#: templates/emails/new-event.php:81
+msgid "A new meeting has been scheduled"
+msgstr ""
+
+#: templates/emails/new-event-customer.php:102
+msgid "Host:"
+msgstr ""
+
+#: templates/emails/new-event-customer.php:111
+#: templates/emails/new-event.php:101
+msgid "%s, %s %s (%s)"
+msgstr ""
+
+#: templates/emails/new-event-customer.php:146
+msgid "Need to make changes to this meeting?"
+msgstr ""
+
+#: templates/emails/new-event-customer.php:151
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:38
+#: assets/js/frontend.js:414
+#: assets/js/frontend.js:601
+#: assets/src/admin/pages/bookings/RescheduleModal.js:177
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:232
+#: assets/src/frontend/pages/userAccount/TableHeader.js:20
+msgid "Reschedule"
+msgstr ""
+
+#: templates/emails/new-event-customer.php:156
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:330
+msgid "Cancel"
+msgstr ""
+
+#: templates/emails/new-staff.php:7
+msgid "You're almost there!"
+msgstr ""
+
+#: templates/emails/new-staff.php:13
+msgid ""
+"We're excited to have you on board! Your'are juste a few\n"
+"                    steps away from setting up your first booking page. All\n"
+"                    that's left to do is verify your email address and set a\n"
+"                    password"
+msgstr ""
+
+#: templates/emails/new-staff.php:24
+msgid "Verify email and get started"
+msgstr ""
+
+#: templates/emails/new-staff.php:28
+msgid "This link is valid for 24 hours"
+msgstr ""
+
+#: templates/emails/update-event.php:66
+msgid "Meeting has been rescheduled"
+msgstr ""
+
+#: templates/staff/onboard.php:18
+msgid "Staff onboard"
+msgstr ""
+
+#: templates/staff/onboard.php:124
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:48
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:108
+#: assets/src/admin/pages/settings/index.js:57
+#: assets/src/admin/pages/staff/Update.js:118
+msgid "Integrations"
+msgstr ""
+
+#: templates/staff/onboard.php:238
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:38
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:188
+#: assets/src/admin/module/onboard/components/Calendar.js:66
+#: assets/src/admin/pages/settings/integrationForm/GoogleConnection.js:84
+#: assets/src/admin/pages/staff/Integration.js:150
+#: assets/src/admin/pages/staff/Integration.js:171
+msgid "Connect"
+msgstr ""
+
+#: templates/staff/onboard.php:244
+msgid "Skip"
+msgstr ""
+
+#: templates/woocommerce/coupon-restriction-option.php:13
+msgid "Timetics Meetings"
+msgstr ""
+
+#: templates/woocommerce/coupon-restriction-option.php:14
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: templates/woocommerce/coupon-restriction-option.php:31
+msgid "Products that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr ""
+
+#: utils/currency.php:6
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: utils/currency.php:11
+msgid "Afghan afghani"
+msgstr ""
+
+#: utils/currency.php:16
+msgid "Albanian lek"
+msgstr ""
+
+#: utils/currency.php:21
+msgid "Armenian dram"
+msgstr ""
+
+#: utils/currency.php:26
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: utils/currency.php:31
+msgid "Angolan kwanza"
+msgstr ""
+
+#: utils/currency.php:36
+msgid "Argentine peso"
+msgstr ""
+
+#: utils/currency.php:41
+msgid "Australian dollar"
+msgstr ""
+
+#: utils/currency.php:46
+msgid "Aruban florin"
+msgstr ""
+
+#: utils/currency.php:51
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: utils/currency.php:56
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: utils/currency.php:61
+msgid "Barbadian dollar"
+msgstr ""
+
+#: utils/currency.php:66
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: utils/currency.php:71
+msgid "Bulgarian lev"
+msgstr ""
+
+#: utils/currency.php:76
+msgid "Bahraini dinar"
+msgstr ""
+
+#: utils/currency.php:81
+msgid "Burundian franc"
+msgstr ""
+
+#: utils/currency.php:86
+msgid "Bermudian dollar"
+msgstr ""
+
+#: utils/currency.php:91
+msgid "Brunei dollar"
+msgstr ""
+
+#: utils/currency.php:96
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: utils/currency.php:101
+msgid "Brazilian real"
+msgstr ""
+
+#: utils/currency.php:106
+msgid "Bahamian dollar"
+msgstr ""
+
+#: utils/currency.php:111
+msgid "Bitcoin"
+msgstr ""
+
+#: utils/currency.php:116
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: utils/currency.php:121
+msgid "Botswana pula"
+msgstr ""
+
+#: utils/currency.php:126
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: utils/currency.php:131
+msgid "Belarusian ruble"
+msgstr ""
+
+#: utils/currency.php:136
+msgid "Belize dollar"
+msgstr ""
+
+#: utils/currency.php:141
+msgid "Canadian dollar"
+msgstr ""
+
+#: utils/currency.php:146
+msgid "Congolese franc"
+msgstr ""
+
+#: utils/currency.php:151
+msgid "Swiss franc"
+msgstr ""
+
+#: utils/currency.php:156
+msgid "Chilean peso"
+msgstr ""
+
+#: utils/currency.php:161
+msgid "Chinese yuan"
+msgstr ""
+
+#: utils/currency.php:166
+msgid "Colombian peso"
+msgstr ""
+
+#: utils/currency.php:171
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: utils/currency.php:176
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: utils/currency.php:181
+msgid "Cuban peso"
+msgstr ""
+
+#: utils/currency.php:186
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: utils/currency.php:191
+msgid "Czech koruna"
+msgstr ""
+
+#: utils/currency.php:196
+msgid "Djiboutian franc"
+msgstr ""
+
+#: utils/currency.php:201
+msgid "Danish krone"
+msgstr ""
+
+#: utils/currency.php:206
+msgid "Dominican peso"
+msgstr ""
+
+#: utils/currency.php:211
+msgid "Algerian dinar"
+msgstr ""
+
+#: utils/currency.php:216
+msgid "Egyptian pound"
+msgstr ""
+
+#: utils/currency.php:221
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: utils/currency.php:226
+msgid "Ethiopian birr"
+msgstr ""
+
+#: utils/currency.php:231
+msgid "Euro"
+msgstr ""
+
+#: utils/currency.php:236
+msgid "Fijian dollar"
+msgstr ""
+
+#: utils/currency.php:241
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: utils/currency.php:246
+msgid "Pound sterling"
+msgstr ""
+
+#: utils/currency.php:251
+msgid "Georgian lari"
+msgstr ""
+
+#: utils/currency.php:256
+msgid "Guernsey pound"
+msgstr ""
+
+#: utils/currency.php:261
+msgid "Ghana cedi"
+msgstr ""
+
+#: utils/currency.php:266
+msgid "Gibraltar pound"
+msgstr ""
+
+#: utils/currency.php:271
+msgid "Gambian dalasi"
+msgstr ""
+
+#: utils/currency.php:276
+msgid "Guinean franc"
+msgstr ""
+
+#: utils/currency.php:281
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: utils/currency.php:286
+msgid "Guyanese dollar"
+msgstr ""
+
+#: utils/currency.php:291
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: utils/currency.php:296
+msgid "Honduran lempira"
+msgstr ""
+
+#: utils/currency.php:301
+msgid "Croatian kuna"
+msgstr ""
+
+#: utils/currency.php:306
+msgid "Haitian gourde"
+msgstr ""
+
+#: utils/currency.php:311
+msgid "Hungarian forint"
+msgstr ""
+
+#: utils/currency.php:316
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: utils/currency.php:321
+msgid "Israeli new shekel"
+msgstr ""
+
+#: utils/currency.php:326
+msgid "Manx pound"
+msgstr ""
+
+#: utils/currency.php:331
+msgid "Indian rupee"
+msgstr ""
+
+#: utils/currency.php:336
+msgid "Iraqi dinar"
+msgstr ""
+
+#: utils/currency.php:341
+msgid "Iranian rial"
+msgstr ""
+
+#: utils/currency.php:346
+msgid "Iranian toman"
+msgstr ""
+
+#: utils/currency.php:351
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: utils/currency.php:356
+msgid "Jersey pound"
+msgstr ""
+
+#: utils/currency.php:361
+msgid "Jamaican dollar"
+msgstr ""
+
+#: utils/currency.php:366
+msgid "Jordanian dinar"
+msgstr ""
+
+#: utils/currency.php:371
+msgid "Japanese yen"
+msgstr ""
+
+#: utils/currency.php:376
+msgid "Kenyan shilling"
+msgstr ""
+
+#: utils/currency.php:381
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: utils/currency.php:386
+msgid "Cambodian riel"
+msgstr ""
+
+#: utils/currency.php:391
+msgid "Comorian franc"
+msgstr ""
+
+#: utils/currency.php:396
+msgid "North Korean won"
+msgstr ""
+
+#: utils/currency.php:401
+msgid "South Korean won"
+msgstr ""
+
+#: utils/currency.php:406
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: utils/currency.php:411
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: utils/currency.php:416
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: utils/currency.php:421
+msgid "Lao kip"
+msgstr ""
+
+#: utils/currency.php:426
+msgid "Lebanese pound"
+msgstr ""
+
+#: utils/currency.php:431
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: utils/currency.php:436
+msgid "Liberian dollar"
+msgstr ""
+
+#: utils/currency.php:441
+msgid "Lesotho loti"
+msgstr ""
+
+#: utils/currency.php:446
+msgid "Libyan dinar"
+msgstr ""
+
+#: utils/currency.php:451
+msgid "Moroccan dirham"
+msgstr ""
+
+#: utils/currency.php:456
+msgid "Moldovan leu"
+msgstr ""
+
+#: utils/currency.php:461
+msgid "Malagasy ariary"
+msgstr ""
+
+#: utils/currency.php:466
+msgid "Macedonian denar"
+msgstr ""
+
+#: utils/currency.php:471
+msgid "Burmese kyat"
+msgstr ""
+
+#: utils/currency.php:476
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: utils/currency.php:481
+msgid "Macanese pataca"
+msgstr ""
+
+#: utils/currency.php:486
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: utils/currency.php:491
+msgid "Mauritian rupee"
+msgstr ""
+
+#: utils/currency.php:496
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: utils/currency.php:501
+msgid "Malawian kwacha"
+msgstr ""
+
+#: utils/currency.php:506
+msgid "Mexican peso"
+msgstr ""
+
+#: utils/currency.php:511
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: utils/currency.php:516
+msgid "Mozambican metical"
+msgstr ""
+
+#: utils/currency.php:521
+msgid "Namibian dollar"
+msgstr ""
+
+#: utils/currency.php:526
+msgid "Nigerian naira"
+msgstr ""
+
+#: utils/currency.php:531
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: utils/currency.php:536
+msgid "Norwegian krone"
+msgstr ""
+
+#: utils/currency.php:541
+msgid "Nepalese rupee"
+msgstr ""
+
+#: utils/currency.php:546
+msgid "New Zealand dollar"
+msgstr ""
+
+#: utils/currency.php:551
+msgid "Omani rial"
+msgstr ""
+
+#: utils/currency.php:556
+msgid "Panamanian balboa"
+msgstr ""
+
+#: utils/currency.php:561
+msgid "Sol"
+msgstr ""
+
+#: utils/currency.php:566
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: utils/currency.php:571
+msgid "Philippine peso"
+msgstr ""
+
+#: utils/currency.php:576
+msgid "Pakistani rupee"
+msgstr ""
+
+#: utils/currency.php:581
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: utils/currency.php:586
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: utils/currency.php:591
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: utils/currency.php:596
+msgid "Qatari riyal"
+msgstr ""
+
+#: utils/currency.php:601
+msgid "Chinese renminbi"
+msgstr ""
+
+#: utils/currency.php:606
+msgid "Romanian leu"
+msgstr ""
+
+#: utils/currency.php:611
+msgid "Serbian dinar"
+msgstr ""
+
+#: utils/currency.php:616
+msgid "Russian ruble"
+msgstr ""
+
+#: utils/currency.php:621
+msgid "Rwandan franc"
+msgstr ""
+
+#: utils/currency.php:626
+msgid "Saudi riyal"
+msgstr ""
+
+#: utils/currency.php:631
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: utils/currency.php:636
+msgid "Seychellois rupee"
+msgstr ""
+
+#: utils/currency.php:641
+msgid "Sudanese pound"
+msgstr ""
+
+#: utils/currency.php:646
+msgid "Swedish krona"
+msgstr ""
+
+#: utils/currency.php:651
+msgid "Singapore dollar"
+msgstr ""
+
+#: utils/currency.php:656
+msgid "Saint Helena pound"
+msgstr ""
+
+#: utils/currency.php:661
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: utils/currency.php:666
+msgid "Somali shilling"
+msgstr ""
+
+#: utils/currency.php:671
+msgid "Surinamese dollar"
+msgstr ""
+
+#: utils/currency.php:676
+msgid "South Sudanese pound"
+msgstr ""
+
+#: utils/currency.php:681
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: utils/currency.php:686
+msgid "Syrian pound"
+msgstr ""
+
+#: utils/currency.php:691
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: utils/currency.php:696
+msgid "Thai baht"
+msgstr ""
+
+#: utils/currency.php:701
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: utils/currency.php:706
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: utils/currency.php:711
+msgid "Tunisian dinar"
+msgstr ""
+
+#: utils/currency.php:716
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: utils/currency.php:721
+msgid "Turkish lira"
+msgstr ""
+
+#: utils/currency.php:726
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: utils/currency.php:731
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: utils/currency.php:736
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: utils/currency.php:741
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: utils/currency.php:746
+msgid "Ugandan shilling"
+msgstr ""
+
+#: utils/currency.php:751
+msgid "United States (US) dollar"
+msgstr ""
+
+#: utils/currency.php:756
+msgid "Uruguayan peso"
+msgstr ""
+
+#: utils/currency.php:761
+msgid "Uzbekistani som"
+msgstr ""
+
+#: utils/currency.php:766
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: utils/currency.php:771
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+#: utils/currency.php:776
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: utils/currency.php:781
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: utils/currency.php:786
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: utils/currency.php:791
+msgid "Central African CFA franc"
+msgstr ""
+
+#: utils/currency.php:796
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: utils/currency.php:801
+msgid "West African CFA franc"
+msgstr ""
+
+#: utils/currency.php:806
+msgid "CFP franc"
+msgstr ""
+
+#: utils/currency.php:811
+msgid "Yemeni rial"
+msgstr ""
+
+#: utils/currency.php:816
+msgid "South African rand"
+msgstr ""
+
+#: utils/currency.php:821
+msgid "Zambian kwacha"
+msgstr ""
+
+#: utils/global-helper.php:331
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:414
+#: assets/js/frontend.js:447
+#: assets/js/frontend.js:535
+#: assets/src/admin/pages/bookings/FormField.js:674
+#: assets/src/admin/pages/meeting/LocationType.js:382
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:194
+#: assets/src/frontend/pages/bookings/ContactInfo.js:619
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:354
+msgid "Google Meet"
+msgstr ""
+
+#: utils/global-helper.php:332
+#: utils/global-helper.php:341
+msgid "Connect your Meet to sync your booked events."
+msgstr ""
+
+#: utils/global-helper.php:340
+#: assets/src/admin/module/onboard/components/Calendar.js:21
+msgid "Google Calendar"
+msgstr ""
+
+#: utils/global-helper.php:466
+msgid "Stripe"
+msgstr ""
+
+#: utils/global-helper.php:470
+msgid "Local Pay"
+msgstr ""
+
+#: utils/global-helper.php:474
+msgid "Woocommerce"
+msgstr ""
+
+#: utils/global-helper.php:541
+msgid "Timetics Meeting"
+msgstr ""
+
+#: utils/global-helper.php:547
+msgid "Timetics meeting"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:156
+msgid "Default Title"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:208
+msgid "To know the eventin starting guide, run the setup wizard. Your existing settings will not change."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:209
+msgid "Start Now"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:216
+msgid "Help Center"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:217
+msgid "To help you to get started, we put together the documentation, support link, videos and FAQs here."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:268
+msgid "How to create zoom event?"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:271
+msgid "You have to give valid connection details in Eventin=>Settings=>User data."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:272
+msgid "After fill up “Api key”, “Secret key” enter “Save changes” and then check connection. After successful connection navigate to Eventin=>Zoom to create a meeting."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:273
+msgid "Note: You must have successful connection to zoom api).You will get meeting id from zoom. Place your meeting id to shortcode (For instance: [etn_zoom_api_link meeting_id =’123456789′ link_only=’no’]"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:274
+msgid "You can also create meeting and display from elementor widget."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:286
+msgid "How can I translate event content into my own language?"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:302
+msgid "How to upgrade to Eventin PRO?"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:321
+msgid "How can I skip adding the price for the ticket?"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:324
+msgid "If you want to host an event without selling tickets, you can arrange it with WPEventin. Woocommerce is not mandatory in this scenario. In that case, simply skip enabling the “Sell on Woocommerce” option. On the other hand, you can enable selling tickets and put the event ticket price as zero(0), then it will act as a free event and your customers don't have to pay for that event. In this way, you can skip the price of the tickets."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:336
+msgid "I am getting a 404 error. What to do now?"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:339
+msgid "You can get a 404 Not Found error for many reasons in WordPress. However, the most common reason for the 404 error is page permalink. In order to solve the permalink error, please login to your WordPress dashboard and click on settings. Then from permalink, select “ Post name” as permalink structure and save the settings. Solution key wp-admin -> settings -> permalink -> Post name -> Save Changes."
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:351
+msgid "Does Eventin support different page builders?"
+msgstr ""
+
+#: utils/pro-awareness/pro-awareness.php:354
+msgid "Yes. Eventin supports different page builders like DIVI builder, Visual Composer and Elementor page builder. You can use a shortcode for DIVI builder and Visual Composer. And the plugin has 15+ dedicated widgets for the Elementor page builder. Most of the widgets are FREE to use. However, <a href=\"https://themewinter.com/eventin/\" target=\"_blank\">Eventin PRO</a> will be required for a few specific widgets."
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:18
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:38
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:58
+#: assets/js/frontend.js:612
+#: assets/src/admin/pages/bookings/bookingLists.js:130
+#: assets/src/admin/pages/bookings/bookingLists.js:183
+#: assets/src/admin/pages/customers/CustomerList.js:109
+#: assets/src/admin/pages/customers/CustomerList.js:175
+#: assets/src/admin/pages/meeting/MeetingCard.js:175
+#: assets/src/admin/pages/meeting/MeetingCard.js:195
+#: assets/src/admin/pages/meeting/MeetingList.js:65
+#: assets/src/admin/pages/staff/staffList.js:95
+#: assets/src/admin/pages/staff/staffList.js:129
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:127
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:139
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:151
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:199
+msgid "Yes"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:18
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:38
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:58
+#: assets/js/frontend.js:612
+#: assets/src/admin/pages/bookings/bookingLists.js:132
+#: assets/src/admin/pages/bookings/bookingLists.js:185
+#: assets/src/admin/pages/customers/CustomerList.js:111
+#: assets/src/admin/pages/customers/CustomerList.js:177
+#: assets/src/admin/pages/meeting/MeetingCard.js:177
+#: assets/src/admin/pages/meeting/MeetingCard.js:197
+#: assets/src/admin/pages/meeting/MeetingList.js:67
+#: assets/src/admin/pages/staff/staffList.js:97
+#: assets/src/admin/pages/staff/staffList.js:131
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:129
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:141
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:153
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:201
+msgid "No"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:18
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:18
+#: assets/src/admin/pages/customers/CustomerList.js:136
+#: assets/src/admin/pages/staff/HeaderAction.js:50
+msgid "Search"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:18
+#: assets/src/admin/pages/customers/CustomerList.js:171
+msgid "Are you sure delete selected Customers?"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:18
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:38
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:58
+#: assets/js/frontend.js:612
+#: assets/src/admin/pages/bookings/bookingLists.js:193
+#: assets/src/admin/pages/customers/CustomerList.js:185
+#: assets/src/admin/pages/staff/staffList.js:139
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:213
+msgid "Bulk Delete"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:28
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/src/admin/pages/customers/TableHeader.js:12
+#: assets/src/admin/pages/staff/TableHeader.js:37
+msgid "ID"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:28
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/customers/TableHeader.js:17
+#: assets/src/admin/pages/staff/TableHeader.js:42
+#: assets/src/frontend/pages/bookings/ContactInfo.js:336
+msgid "Name"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:28
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/customers/TableHeader.js:22
+#: assets/src/admin/pages/staff/FormField.js:67
+#: assets/src/admin/pages/staff/TableHeader.js:47
+#: assets/src/frontend/pages/userAccount/UserProfile.js:126
+msgid "Email"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:28
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/js/frontend.js:447
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/customers/TableHeader.js:27
+#: assets/src/admin/pages/staff/FormField.js:88
+#: assets/src/admin/pages/staff/TableHeader.js:52
+#: assets/src/frontend/pages/bookings/ContactInfo.js:380
+#: assets/src/frontend/pages/bookings/ContactInfo.js:456
+#: assets/src/frontend/pages/userAccount/UserProfile.js:143
+msgid "Phone"
+msgstr ""
+
+#: assets/js/chunk/0c0ea95ebd7e5d451990.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:78
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/src/admin/pages/customers/TableHeader.js:51
+#: assets/src/admin/pages/staff/TableHeader.js:100
+#: assets/src/admin/pages/staff/UploadImage.js:74
+msgid "Remove"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/staff/FormField.js:38
+#: assets/src/frontend/pages/userAccount/UserProfile.js:83
+msgid "First Name"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/staff/FormField.js:45
+#: assets/src/frontend/pages/userAccount/UserProfile.js:90
+msgid "First name is required!"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/staff/FormField.js:51
+#: assets/src/frontend/pages/userAccount/UserProfile.js:96
+#: assets/src/frontend/pages/userAccount/UserProfile.js:117
+msgid "Enter your first name"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/staff/FormField.js:56
+#: assets/src/frontend/pages/userAccount/UserProfile.js:104
+msgid "Last Name"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/src/admin/pages/staff/FormField.js:60
+msgid "Enter your last name"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/staff/FormField.js:73
+#: assets/src/frontend/pages/bookings/ContactInfo.js:357
+msgid "That doesn't look like an email address"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/staff/FormField.js:80
+#: assets/src/frontend/pages/userAccount/UserProfile.js:132
+msgid "Email is required!"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/js/frontend.js:645
+#: assets/src/admin/pages/staff/FormField.js:83
+#: assets/src/frontend/pages/userAccount/UserProfile.js:139
+msgid "Enter your email"
+msgstr ""
+
+#: assets/js/chunk/5e1506d6bc8dbb41c152.chunk.js:28
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:28
+#: assets/src/admin/pages/staff/FormField.js:100
+msgid "working hours"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:18
+#: assets/src/admin/pages/staff/Availability.js:94
+msgid "Update Availability"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:38
+#: assets/src/admin/pages/staff/Integration.js:76
+msgid "Before connecting make sure you provide the necessary credentials to "
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:38
+#: assets/src/admin/pages/staff/Integration.js:93
+msgid "Settings -> Integrations"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:38
+#: assets/src/admin/pages/staff/Integration.js:136
+#: assets/src/admin/pages/staff/Integration.js:159
+msgid "Please complete authorization"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:38
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:188
+#: assets/src/admin/pages/settings/integrationForm/GoogleConnection.js:93
+#: assets/src/admin/pages/staff/Integration.js:183
+msgid "Disconnect"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:48
+#: assets/src/admin/pages/staff/Update.js:101
+msgid "Password & Security"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:48
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/src/admin/pages/settings/index.js:52
+#: assets/src/admin/pages/staff/Update.js:106
+msgid "Availability"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:48
+#: assets/src/admin/pages/staff/Update.js:127
+msgid "Account Settings"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:58
+#: assets/src/admin/pages/staff/UpdateGeneralInfo.js:108
+msgid "Update Preference"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:60
+msgid "Current password "
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:63
+msgid "Enter current password"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:67
+msgid "Current password is required!"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/js/frontend.js:623
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:76
+#: assets/src/frontend/pages/userAccount/UserChangePassword.js:85
+msgid "New password "
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:77
+msgid "Enter a new password"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/js/frontend.js:623
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:83
+#: assets/src/frontend/pages/userAccount/UserChangePassword.js:91
+msgid "New password is required!"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:93
+msgid "Confirm new password"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/js/frontend.js:623
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:98
+#: assets/src/frontend/pages/userAccount/UserChangePassword.js:105
+msgid "Please confirm your password!"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/js/frontend.js:623
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:113
+#: assets/src/frontend/pages/userAccount/UserChangePassword.js:120
+msgid "The two passwords that you entered do not match!"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:68
+#: assets/js/frontend.js:623
+#: assets/src/admin/pages/staff/UpdatePassowrd.js:130
+#: assets/src/frontend/pages/userAccount/UserChangePassword.js:132
+msgid "Update Password"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:78
+#: assets/js/frontend.js:634
+#: assets/src/admin/pages/staff/UploadImage.js:20
+#: assets/src/frontend/pages/userAccount/UserInfo.js:15
+msgid "profile photo"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:78
+#: assets/src/admin/pages/staff/UploadImage.js:49
+msgid "Profile Picture"
+msgstr ""
+
+#: assets/js/chunk/53f9c37b5c8acb062eca.chunk.js:78
+#: assets/src/admin/pages/staff/UploadImage.js:61
+msgid "Change Avatar"
+msgstr ""
+
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/src/admin/pages/staff/TableHeader.js:72
+msgid "Manage"
+msgstr ""
+
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/src/admin/pages/staff/TableHeader.js:84
+msgid "Re-invite"
+msgstr ""
+
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:28
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:319
+#: assets/src/admin/pages/staff/TableHeader.js:87
+msgid "Pending"
+msgstr ""
+
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:38
+#: assets/src/admin/pages/staff/staffList.js:94
+msgid "Are you sure delete this staff?"
+msgstr ""
+
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:38
+#: assets/src/admin/pages/staff/staffList.js:125
+msgid "Are you sure delete selected staffs?"
+msgstr ""
+
+#: assets/js/chunk/696bde348d48ed6e734f.chunk.js:38
+#: assets/src/admin/pages/staff/staffList.js:143
+msgid "items selected"
+msgstr ""
+
+#: assets/js/chunk/3693fad8224986c4e7df.chunk.js:18
+#: assets/src/admin/pages/meeting/index.js:39
+msgid "Meetings/Events/Appointments"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/js/dashboard.js:305
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:102
+#: assets/src/admin/pages/meeting/notification/EmailCustomizeModal.js:80
+msgid "FROM"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/js/dashboard.js:305
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:109
+#: assets/src/admin/pages/meeting/notification/EmailCustomizeModal.js:87
+msgid "Please enter valid E-mail"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/js/dashboard.js:305
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:117
+#: assets/src/admin/pages/meeting/notification/EmailCustomizeModal.js:95
+msgid "Select email"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:120
+msgid "EMAIL SUBJECT"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/js/dashboard.js:305
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:126
+#: assets/src/admin/pages/meeting/notification/EmailCustomizeModal.js:104
+msgid "Please enter E-mail subject!"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:134
+msgid "Your meeting with {Meeting_title}"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:18
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/components/notification/EmailCustomizeModal.js:179
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:123
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:98
+msgid "Save"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:28
+#: assets/src/admin/components/notification/NotificationOption.js:80
+msgid " Notification to Customers/Attendees/Clients"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:28
+#: assets/src/admin/components/notification/NotificationOption.js:103
+#: assets/src/admin/components/notification/NotificationOption.js:146
+msgid "Configure Email"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:28
+#: assets/src/admin/components/notification/NotificationOption.js:126
+msgid "Notification to Host"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:38
+#: assets/src/admin/components/notification/ReminderTime.js:42
+msgid "Send a Reminder Email Before"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:38
+#: assets/js/dashboard.js:349
+#: assets/js/dashboard.js:360
+#: assets/src/admin/components/notification/ReminderTime.js:76
+#: assets/src/admin/pages/meeting/notification/ReminderTime.js:86
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:368
+msgid "Set custom time"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:38
+#: assets/src/admin/components/notification/ReminderTime.js:82
+msgid "Day/Hour/Minute"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:38
+#: assets/src/admin/components/notification/ReminderTime.js:109
+msgid "Add"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:48
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/meeting/AddGuest.js:55
+#: assets/src/admin/pages/settings/AddGuest.js:68
+msgid "Enable Guest(s)"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:48
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/meeting/AddGuest.js:58
+#: assets/src/admin/pages/settings/AddGuest.js:71
+msgid "Activate whether or not it is allowed to include guests on for a meeting"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:48
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/meeting/AddGuest.js:67
+#: assets/src/admin/pages/settings/AddGuest.js:80
+msgid "Number of Guest(s)"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:48
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/meeting/AddGuest.js:69
+#: assets/src/admin/pages/settings/AddGuest.js:82
+msgid "Set the maximum number of guests one user is allowed to bring."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:58
+#: assets/src/admin/pages/settings/Availability.js:23
+msgid "Weekly Hours"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:58
+#: assets/src/admin/pages/settings/Availability.js:28
+msgid "Blocked Dates"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:58
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:316
+#: assets/js/dashboard.js:360
+#: assets/js/dashboard.js:371
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/notification/Notification.js:82
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:439
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:512
+#: assets/src/admin/pages/meeting/steps/Integrations.js:260
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:409
+#: assets/src/admin/pages/settings/Availability.js:74
+#: assets/src/admin/pages/settings/General.js:411
+msgid "Save Updates"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:68
+#: assets/src/admin/pages/settings/BlockedDays.js:102
+msgid "Add Blocked Dates"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:68
+#: assets/src/admin/pages/settings/BlockedDays.js:163
+msgid "Assign Block Hours"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:78
+#: assets/src/admin/pages/settings/CalendarInput.js:130
+msgid "Select hours you will be unavailable for a meeting"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:78
+#: assets/src/admin/pages/settings/CalendarInput.js:141
+msgid "(Delete all time slots to make a day unavailable)"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:78
+#: assets/src/admin/pages/settings/CalendarInput.js:165
+#: assets/src/admin/pages/settings/CalendarInput.js:200
+msgid "Select a time"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:78
+#: assets/src/admin/pages/settings/CalendarInput.js:226
+msgid "Remove time slot"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:78
+#: assets/src/admin/pages/settings/CalendarInput.js:249
+msgid " Unavailable"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:88
+#: assets/js/dashboard.js:250
+#: assets/src/admin/pages/meeting/CustomizeForm.js:85
+#: assets/src/admin/pages/settings/CustomizeForm.js:65
+msgid "Invitee Questions"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:88
+#: assets/js/dashboard.js:250
+#: assets/src/admin/pages/meeting/CustomizeForm.js:109
+#: assets/src/admin/pages/settings/CustomizeForm.js:89
+msgid "Required"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:77
+msgid "Date & Time Format"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:78
+msgid "Change the date and time format to your likings"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:111
+msgid "Update date & time format"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:116
+msgid "Default format:"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:126
+msgid "First Day of The Week"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:127
+msgid "Choose the day your week starts with"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:144
+msgid "Update Week starts on"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:147
+msgid "Week starts on"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:151
+msgid "Selected Day "
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:173
+msgid "Approval Status"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:174
+msgid "Change the approval status to Approved or Pending or Cancelled"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:184
+#: assets/src/admin/pages/settings/General.js:200
+msgid "Select Booking Status"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:206
+msgid "Select Currency"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:207
+msgid "Select your preferred currency"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:212
+msgid "You are not allowed to change currency here because WooCommerce payment is currently enabled."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:223
+msgid "Select currency"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:230
+msgid "Search currency by the country name"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:277
+msgid "Set primary color"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:278
+msgid "Set your primary color"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:291
+msgid "Set secondary color"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:292
+msgid "Set your secondary color"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:305
+msgid "Calendar translator"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:306
+msgid "Select the language for your user"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:315
+#: assets/src/admin/pages/settings/General.js:321
+#: assets/src/admin/pages/settings/General.js:366
+msgid "Select Locale"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:327
+msgid "Set Timezone"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:328
+msgid "Select the timezone of timetics"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:98
+#: assets/src/admin/pages/settings/General.js:340
+msgid "Select Timezone"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:57
+msgid "Configure"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:188
+#: assets/src/admin/pages/settings/integrationForm/GoogleConnection.js:47
+#: assets/src/admin/pages/settings/Integrations.js:95
+msgid "Google Calendar/Meet"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:188
+#: assets/src/admin/pages/settings/integrationForm/GoogleConnection.js:48
+#: assets/src/admin/pages/settings/Integrations.js:99
+msgid "Connect Google Calendar/Meet to sync your events."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/bookings/FormField.js:673
+#: assets/src/admin/pages/meeting/LocationType.js:390
+#: assets/src/admin/pages/settings/Integrations.js:106
+#: assets/src/frontend/pages/bookings/ContactInfo.js:618
+msgid "Zoom"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:110
+msgid "Connect Zoom to sync your events."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:114
+msgid "Fluent CRM"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:118
+msgid "Set Fluent CRM webhook to sync your booking data."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:175
+#: assets/src/admin/pages/settings/Integrations.js:125
+msgid "Pabbly Webhook"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:129
+msgid "Set pabbly webhook to sync your booking data."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:214
+#: assets/src/admin/pages/settings/Integrations.js:136
+msgid "Zapier Webhook"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:140
+msgid "Set Zapier webhook to sync your booking data."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:147
+msgid "Twilio Messaging"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:108
+#: assets/src/admin/pages/settings/Integrations.js:151
+msgid "WhatsApp messaging using the Twilio."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:78
+msgid "After Booking Confirmation"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:79
+msgid "Notification to Customer After Booking Confirmation"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:83
+#: assets/src/admin/pages/settings/Notification.js:132
+msgid "Your Attendees/Customers/Clients will receive a confirmation email containing a link to create that event on their calendar"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:87
+msgid "Notification to Host After Booking Confirmation"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:91
+#: assets/src/admin/pages/settings/Notification.js:140
+msgid "The Host will receive a confirmation email containing a link to create that event on their calendar"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:102
+msgid "After Booking Cancellation"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:104
+msgid "Notification to Customer After Booking Canceled"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:108
+msgid "Your Attendees/Customers/Clients will receive a cancellation email"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:112
+msgid "Notification to Host After Booking Canceled"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:116
+msgid "The Host will receive a cancellation email"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:127
+msgid "After Booking is Rescheduled"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:128
+msgid "Notification to Customer After Booking Rescheduled"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:136
+msgid "Notification to Host After Booking Rescheduled"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:151
+msgid "Reminder Before Meeting"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:152
+msgid "Notification to Customer Reminder Before Meeting"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:156
+msgid "Your Attendees/Customers/Clients will receive an Email reminding them about the meeting"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:160
+msgid "Notification to Host Reminder Before Meeting"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:118
+#: assets/src/admin/pages/settings/Notification.js:164
+msgid "The Host will receive a confirmation email containing a link to create that event on their calendar."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:115
+msgid "Stripe Payment"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:116
+msgid "Connect your stripe payments."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:173
+msgid "Local Payment"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:174
+msgid "Configure this section to pay locally."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:209
+msgid "WooCommerce"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:210
+msgid "Connect your WooCommerce to sync your booked events."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:270
+msgid "PayPal Payment"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:128
+#: assets/src/admin/pages/settings/Payments.js:271
+msgid "Connect your PayPal payments."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:138
+#: assets/src/admin/pages/settings/WeeklyHours.js:23
+msgid "Set default schedule for all staffs"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:138
+#: assets/src/admin/pages/settings/WeeklyHours.js:29
+msgid "This schedule will be the default one for all the staffs, staffs can customize them through profile"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/src/admin/pages/settings/index.js:47
+msgid "General"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/src/admin/pages/settings/index.js:62
+msgid "Notifications"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/src/admin/pages/settings/index.js:67
+msgid "Payment"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:168
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:119
+#: assets/src/admin/pages/settings/index.js:72
+msgid "Customize form"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:76
+msgid " Login to your Google account, go to Google Cloud Console, create a project, complete OAuth  Consent screen process, click on Create Credentials, and you'll get your client id and secret key. If you get the ID and Keys for Google Calendar, Goole Meet will be integrated automatically. For full details read the "
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:85
+msgid "documentation."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:89
+msgid "Client ID"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:93
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:94
+msgid "Enter Client ID"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:97
+msgid "Client Secret key"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:101
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:102
+msgid "Enter Client Secret Key"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:105
+msgid "Redirect URl"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:110
+msgid "Redirect URL will be automatically generated when you connect Google Calendar and Google Meet"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:178
+#: assets/src/admin/pages/settings/integrationForm/GoogleCalendarForm.js:114
+msgid "Redirect url"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:56
+msgid " Connect or create a Stripe account to accept payments  directly onsite, including Payment Request buttons (such as Apple Pay and Google Pay), iDEAL, SEPA, Sofort, and more international payment methods. Check out the "
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:65
+msgid "documentation "
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:67
+msgid "for more detailed walk-through."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:70
+msgid " Publishable key"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:74
+msgid "Enter  publishable key"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:75
+msgid "Only values starting with \"pk__\" will be saved."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:81
+msgid "Secret key"
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:85
+msgid "Only values starting with \"sk__\" or \"rk__\" will be saved."
+msgstr ""
+
+#: assets/js/chunk/70455c5410ee70f03c79.chunk.js:208
+#: assets/src/admin/pages/settings/paymentsForm/Stripe.js:89
+msgid "Enter  secret key"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:324
+msgid "Approved"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:341
+msgid "Customer's name"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:348
+msgid "Customer name is required!"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:351
+msgid "Jhon Deo"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:355
+msgid "Customer's Email"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:365
+msgid "name@yourdomain.com"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:396
+msgid "Client time zone"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/bookings/FormField.js:404
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:267
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:453
+msgid "Please select your timezone"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:28
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:38
+#: assets/js/dashboard.js:415
+#: assets/src/admin/pages/bookings/FormField.js:422
+#: assets/src/admin/pages/bookings/HeaderAction.js:91
+#: assets/src/admin/pages/bookings/RescheduleModal.js:157
+#: assets/src/admin/pages/shortcodes/BookingForm.js:63
+msgid "Select Meeting"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:415
+#: assets/src/admin/pages/bookings/FormField.js:434
+#: assets/src/admin/pages/shortcodes/BookingForm.js:70
+msgid "Please Select Your Meeting"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:415
+#: assets/src/admin/pages/bookings/FormField.js:441
+#: assets/src/admin/pages/shortcodes/BookingForm.js:77
+msgid "Meeting title is required"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:448
+#: assets/src/admin/pages/bookings/FormField.js:454
+msgid "Select Host"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:459
+msgid "Host is required"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:465
+msgid "Number of invitee"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:469
+msgid "Enter Number of invitee"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:477
+#: assets/src/admin/pages/bookings/FormField.js:488
+msgid "Select Location"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:484
+msgid "Location is required"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/bookings/FormField.js:535
+#: assets/src/admin/pages/meeting/LocationType.js:451
+msgid "Phone number"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/bookings/FormField.js:539
+#: assets/src/admin/pages/meeting/LocationType.js:455
+#: assets/src/frontend/pages/bookings/ContactInfo.js:384
+#: assets/src/frontend/pages/bookings/ContactInfo.js:460
+msgid "Enter your phone number"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/bookings/FormField.js:546
+#: assets/src/admin/pages/meeting/LocationType.js:459
+#: assets/src/frontend/pages/bookings/ContactInfo.js:392
+#: assets/src/frontend/pages/bookings/ContactInfo.js:468
+msgid "A valid phone number is required!"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:563
+msgid "Date is required"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:38
+#: assets/src/admin/pages/bookings/FormField.js:585
+#: assets/src/admin/pages/bookings/RescheduleModal.js:142
+msgid "Select time"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:594
+msgid "Select Time"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:38
+#: assets/src/admin/pages/bookings/FormField.js:601
+#: assets/src/admin/pages/bookings/RescheduleModal.js:161
+msgid "Time is required"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/js/frontend.js:601
+#: assets/src/admin/pages/bookings/FormField.js:655
+#: assets/src/admin/pages/bookings/TableHeader.js:137
+#: assets/src/frontend/pages/userAccount/TableHeader.js:110
+msgid "Status"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/src/admin/pages/bookings/FormField.js:657
+msgid "Select Booking status"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:447
+#: assets/js/frontend.js:535
+#: assets/src/admin/pages/bookings/FormField.js:675
+#: assets/src/admin/pages/meeting/LocationType.js:419
+#: assets/src/frontend/pages/bookings/ContactInfo.js:620
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:359
+msgid "Organizer Phone Number"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/bookings/FormField.js:676
+#: assets/src/admin/pages/meeting/LocationType.js:399
+#: assets/src/frontend/pages/bookings/ContactInfo.js:621
+msgid "In Person Meeting"
+msgstr ""
+
+#: assets/js/chunk/a05cfe120fb85cf9e24e.chunk.js:18
+#: assets/js/dashboard.js:261
+#: assets/js/frontend.js:447
+#: assets/src/admin/pages/bookings/FormField.js:677
+#: assets/src/admin/pages/meeting/LocationType.js:411
+#: assets/src/frontend/pages/bookings/ContactInfo.js:622
+msgid "Attendee Phone Number"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:18
+#: assets/src/admin/pages/meeting/CategoryList.js:150
+msgid "Edit "
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:18
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/src/admin/pages/bookings/TableHeader.js:52
+#: assets/src/admin/pages/meeting/CategoryList.js:173
+#: assets/src/admin/pages/meeting/MeetingCard.js:205
+msgid "Delete"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:28
+#: assets/src/admin/pages/meeting/CategoryModal.js:125
+msgid "Please enter desired category name!"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:28
+#: assets/src/admin/pages/meeting/CategoryModal.js:133
+msgid "Enter department name"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:28
+#: assets/src/admin/pages/meeting/CategoryModal.js:153
+msgid "Select meeting"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:29
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:111
+msgid "One-to-Many"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:34
+msgid "Create a One-to-Many Meeting"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:79
+msgid "One-to-One"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:82
+msgid "Single host with single invitee. Best for having a one-to-one conversation."
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:115
+msgid "Single host with multiple invitees. Best for taking classes and seminars."
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:147
+msgid "One-to-Many With Seat plan"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:38
+#: assets/src/admin/pages/meeting/CreateOptionBtn.js:154
+msgid "One-to-Many meetings with the option to create seat plans. Best for restaurants, cinema halls, and conferences."
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:48
+#: assets/src/admin/pages/meeting/Filters.js:73
+#: assets/src/admin/pages/meeting/Filters.js:93
+msgid "Select"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:48
+#: assets/src/admin/pages/meeting/Filters.js:77
+msgid "Select staff"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:48
+#: assets/src/admin/pages/meeting/Filters.js:86
+msgid "Select status"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:48
+#: assets/src/admin/pages/meeting/Filters.js:113
+msgid "Clear"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:48
+#: assets/src/admin/pages/meeting/Filters.js:118
+msgid "Apply"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/src/admin/pages/meeting/MeetingCard.js:164
+msgid "Share"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/src/admin/pages/meeting/MeetingCard.js:174
+msgid "Are you sure to duplicate?"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/src/admin/pages/meeting/MeetingCard.js:184
+msgid "Clone"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/src/admin/pages/meeting/MeetingCard.js:194
+#: assets/src/admin/pages/meeting/MeetingList.js:64
+msgid "Are you sure delete?"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:58
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/MeetingCard.js:280
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:187
+msgid "Preview"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/src/admin/pages/meeting/MeetingList.js:170
+msgid "Deselect All"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/src/admin/pages/meeting/MeetingList.js:187
+msgid "Select All"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/src/admin/pages/meeting/MeetingList.js:245
+msgid "Currently, you have no meetings."
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:68
+#: assets/src/admin/pages/meeting/MeetingList.js:249
+msgid "Please, create a meeting."
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:78
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/ShareMeetingModal.js:17
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:129
+msgid "Copied the meeting link"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:78
+#: assets/src/admin/pages/meeting/ShareMeetingModal.js:53
+msgid "Copy"
+msgstr ""
+
+#: assets/js/chunk/ac82d7c2ac15c57b17a3.chunk.js:98
+#: assets/src/common/Actions.js:79
+msgid "Filter"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:18
+#: assets/js/frontend.js:260
+#: assets/js/frontend.js:315
+#: assets/js/frontend.js:546
+#: assets/src/admin/pages/meeting/CreateMeeting.js:71
+#: assets/src/frontend/app.js:14
+#: assets/src/frontend/frontendSteps/FrontendSteps.js:115
+#: assets/src/frontend/pages/bookings/component/BookingEssentialHOC.js:96
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:18
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/CreateMeeting.js:90
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:160
+msgid "Back to Meetings"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:204
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:215
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:309
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:320
+msgid "Title"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:210
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:315
+msgid "Please enter title!"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:328
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:313
+msgid "Meeting date range (meeting availibility)"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:334
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:321
+msgid "If you don't specify a date, the meeting will automatically be scheduled for one year from now."
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:340
+msgid "Set meeting date"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:259
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:445
+msgid "meeting Time zone"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:465
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:267
+msgid "select host"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:469
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:271
+msgid "Please select host"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:476
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:278
+msgid "Select host"
+msgstr ""
+
+#: assets/js/chunk/beb1c054048bd3ae86e6.chunk.js:28
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/CreateStep.js:495
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:297
+msgid "Select availability "
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:18
+#: assets/src/admin/module/onboard/components/AvailableTimeSlots.js:34
+msgid "Set Your Availability"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:18
+#: assets/src/admin/module/onboard/components/AvailableTimeSlots.js:35
+msgid "Set up your availability beforehand so that your clients can be more informed about your schedule."
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:18
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:28
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/AvailableTimeSlots.js:77
+#: assets/src/admin/module/onboard/components/Calendar.js:84
+#: assets/src/admin/module/onboard/components/DemoDataInput.js:66
+#: assets/src/admin/module/onboard/components/Profile.js:116
+msgid "Previous"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:18
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/js/dashboard.js:360
+#: assets/src/admin/module/onboard/components/AvailableTimeSlots.js:84
+#: assets/src/admin/module/onboard/components/Calendar.js:93
+#: assets/src/admin/module/onboard/components/Profile.js:124
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:443
+msgid "Next"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:18
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:28
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/AvailableTimeSlots.js:95
+#: assets/src/admin/module/onboard/components/Calendar.js:104
+#: assets/src/admin/module/onboard/components/DemoDataInput.js:79
+#: assets/src/admin/module/onboard/components/Profile.js:136
+msgid "Skip this part"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:28
+#: assets/src/admin/module/onboard/components/DemoDataInput.js:31
+#: assets/src/admin/module/onboard/components/DemoDataInput.js:48
+msgid "Import Demo Data"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:28
+#: assets/src/admin/module/onboard/components/DemoDataInput.js:32
+msgid "Click to import demo data of meetings, staff members, bookings, and customers. These dummy data will help you to get familiar with the overall interface of the plugin."
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:28
+#: assets/src/admin/module/onboard/components/DemoDataInput.js:73
+msgid "Finish Setup"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:38
+#: assets/src/admin/module/onboard/components/Header.js:15
+msgid "Back to dashboard"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:38
+#: assets/src/admin/module/onboard/components/Header.js:23
+msgid " Having troubles? "
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:38
+#: assets/src/admin/module/onboard/components/Header.js:29
+msgid "Get help"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/Profile.js:69
+msgid "Business/User name"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/Profile.js:74
+msgid "Please enter valid name!"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/Profile.js:81
+msgid "Type name "
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/Profile.js:87
+msgid "Business type"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:48
+#: assets/src/admin/module/onboard/components/Profile.js:93
+msgid "Select one"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:45
+msgid "Welcome to Timetics"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:47
+msgid "Signup and Join 3000+ founders, business tycoons, and developers worldwide - and get updated with the best tips for using Timetics, exciting deals, and news."
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:73
+msgid "Please enter valid email!"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:81
+msgid "Enter your email "
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:94
+msgid "Let's Get Started"
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:104
+msgid "We won’t spam you. We value your privacy."
+msgstr ""
+
+#: assets/js/chunk/c451553cfc5929daf90c.chunk.js:68
+#: assets/src/admin/module/onboard/components/Welcome.js:112
+msgid "I already know, skip all steps!"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:38
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:58
+#: assets/src/admin/pages/overview/OverviewCard.js:30
+#: assets/src/admin/pages/overview/Reports.js:30
+msgid "Current Week"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:38
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:58
+#: assets/src/admin/pages/overview/OverviewCard.js:34
+#: assets/src/admin/pages/overview/Reports.js:34
+msgid "Last Week"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:38
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:58
+#: assets/src/admin/pages/overview/OverviewCard.js:39
+#: assets/src/admin/pages/overview/Reports.js:39
+msgid "Current Month"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:38
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:58
+#: assets/src/admin/pages/overview/OverviewCard.js:43
+#: assets/src/admin/pages/overview/Reports.js:43
+msgid "Last Month"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:38
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:58
+#: assets/src/admin/pages/overview/OverviewCard.js:47
+#: assets/src/admin/pages/overview/Reports.js:47
+msgid "Last 3 Month"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:58
+#: assets/src/admin/pages/overview/Reports.js:17
+msgid "Reports"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:68
+#: assets/src/admin/pages/overview/UpcommingBookings.js:15
+msgid "Upcoming Bookings"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:78
+#: assets/src/admin/pages/overview/index.js:182
+msgid "Total Bookings"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:78
+#: assets/src/admin/pages/overview/index.js:187
+msgid "Total Revenue"
+msgstr ""
+
+#: assets/js/chunk/d391be097da0c88f3586.chunk.js:78
+#: assets/src/admin/pages/overview/index.js:192
+msgid "Total Customers"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:20
+msgid "meeting name:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:24
+msgid "date and time:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:40
+msgid "host:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:53
+msgid "meeting location:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:70
+msgid "Meeting Link: "
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:72
+msgid " Join Here "
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:80
+msgid "selected seats:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:98
+msgid "Meeting created at:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:104
+msgid "time zone:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:113
+msgid "name:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:117
+msgid "email:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:121
+msgid "booking id:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:125
+msgid "Phone:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:129
+msgid "additional notes:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:133
+msgid "guest email:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:167
+msgid "Booking details:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:190
+msgid "Customer details:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:18
+#: assets/src/admin/pages/bookings/BookingModal.js:247
+msgid "Invitee list:"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:28
+#: assets/src/admin/pages/bookings/HeaderAction.js:104
+msgid "Search..."
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:38
+#: assets/src/admin/pages/bookings/RescheduleModal.js:124
+msgid "date"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/js/frontend.js:601
+#: assets/src/admin/pages/bookings/TableHeader.js:71
+#: assets/src/frontend/pages/userAccount/TableHeader.js:41
+msgid "Booking Date"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/js/frontend.js:601
+#: assets/src/admin/pages/bookings/TableHeader.js:109
+#: assets/src/frontend/pages/userAccount/TableHeader.js:78
+msgid "Meeting Name"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/src/admin/pages/bookings/TableHeader.js:123
+msgid "Customer"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:48
+#: assets/src/admin/pages/bookings/TableHeader.js:180
+msgid "Details"
+msgstr ""
+
+#: assets/js/chunk/fa95827d389dd6ee372a.chunk.js:58
+#: assets/js/frontend.js:612
+#: assets/src/admin/pages/bookings/bookingLists.js:129
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:138
+msgid "Are you sure delete this booking?"
+msgstr ""
+
+#: assets/js/dashboard.js:107
+#: assets/src/admin/components/MainPageHeader.js:26
+msgid "Need Help?"
+msgstr ""
+
+#: assets/js/dashboard.js:107
+#: assets/src/admin/components/MainPageHeader.js:38
+msgid "Documentation"
+msgstr ""
+
+#: assets/js/dashboard.js:107
+#: assets/src/admin/components/MainPageHeader.js:50
+msgid "Feature Request"
+msgstr ""
+
+#: assets/js/dashboard.js:118
+#: assets/src/admin/components/NoticeProFeature.js:13
+msgid "Upgrade to timetics pro for ultimate satisfaction"
+msgstr ""
+
+#: assets/js/dashboard.js:129
+#: assets/src/admin/components/ScheduleMode.js:25
+msgid "Use Default Availability"
+msgstr ""
+
+#: assets/js/dashboard.js:129
+#: assets/src/admin/components/ScheduleMode.js:36
+msgid "Customize Availability"
+msgstr ""
+
+#: assets/js/dashboard.js:151
+#: assets/src/admin/components/SingleDaySchedule.js:255
+#: assets/src/admin/components/SingleDaySchedule.js:444
+msgid "Unavailable"
+msgstr ""
+
+#: assets/js/dashboard.js:151
+#: assets/src/admin/components/SingleDaySchedule.js:433
+msgid "Time conflict."
+msgstr ""
+
+#: assets/js/dashboard.js:228
+#: assets/src/admin/module/onboard/components/ErrorPage.js:15
+msgid "Ooops! Something's Wrong. "
+msgstr ""
+
+#: assets/js/dashboard.js:228
+#: assets/src/admin/module/onboard/components/ErrorPage.js:17
+msgid "Please try again or let us know if the issue's still here."
+msgstr ""
+
+#: assets/js/dashboard.js:228
+#: assets/src/admin/module/onboard/components/ErrorPage.js:27
+msgid "Try Again"
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:111
+msgid "Google meet is not connected."
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:123
+#: assets/src/admin/pages/meeting/LocationType.js:144
+msgid " Please configure"
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:132
+msgid "Zoom is not connected."
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:196
+msgid "Location type"
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:243
+msgid "Add location"
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:330
+msgid "remove-location-type"
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:365
+msgid "Add Another Location"
+msgstr ""
+
+#: assets/js/dashboard.js:261
+#: assets/src/admin/pages/meeting/LocationType.js:433
+#: assets/src/admin/pages/meeting/LocationType.js:436
+msgid "Address"
+msgstr ""
+
+#: assets/js/dashboard.js:272
+#: assets/src/admin/pages/meeting/TicketPrice.js:18
+msgid "default"
+msgstr ""
+
+#: assets/js/dashboard.js:272
+#: assets/js/frontend.js:601
+#: assets/src/admin/pages/meeting/TicketPrice.js:30
+#: assets/src/frontend/pages/userAccount/TableHeader.js:92
+msgid "Price"
+msgstr ""
+
+#: assets/js/dashboard.js:272
+#: assets/src/admin/pages/meeting/TicketPrice.js:33
+msgid "Enter your meeting price"
+msgstr ""
+
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:74
+msgid "Basic info"
+msgstr ""
+
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:87
+msgid "Time and availability"
+msgstr ""
+
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:102
+msgid "Recurring"
+msgstr ""
+
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:165
+msgid "Copy Meeting Link"
+msgstr ""
+
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:172
+msgid "Copy Link"
+msgstr ""
+
+#: assets/js/dashboard.js:283
+#: assets/src/admin/pages/meeting/UpdateMeeting.js:178
+msgid "Preview Meeting"
+msgstr ""
+
+#: assets/js/dashboard.js:305
+#: assets/src/admin/pages/meeting/notification/EmailCustomizeModal.js:98
+msgid "EMAIL SUJECT"
+msgstr ""
+
+#: assets/js/dashboard.js:305
+#: assets/src/admin/pages/meeting/notification/EmailCustomizeModal.js:112
+msgid "Your meeting with {BOOKING-TITLE}"
+msgstr ""
+
+#: assets/js/dashboard.js:327
+#: assets/src/admin/pages/meeting/notification/NotificationOption.js:64
+msgid " Notification to customer"
+msgstr ""
+
+#: assets/js/dashboard.js:327
+#: assets/src/admin/pages/meeting/notification/NotificationOption.js:88
+#: assets/src/admin/pages/meeting/notification/NotificationOption.js:136
+msgid "Customize Email"
+msgstr ""
+
+#: assets/js/dashboard.js:327
+#: assets/src/admin/pages/meeting/notification/NotificationOption.js:115
+msgid "Notification to host"
+msgstr ""
+
+#: assets/js/dashboard.js:349
+#: assets/src/admin/pages/meeting/notification/ReminderTime.js:98
+msgid "day / hour / min"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:221
+msgid "Description"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:225
+msgid "Enter description"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:286
+msgid "Categorize your meeting"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/js/frontend.js:601
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:338
+#: assets/src/frontend/pages/userAccount/TableHeader.js:64
+msgid "Duration"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:342
+msgid "Select your meeting duration"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:350
+msgid "Please select meeting duration!"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:379
+msgid "Custom meeting duration time is required!"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:389
+msgid "hr's / min"
+msgstr ""
+
+#: assets/js/dashboard.js:360
+#: assets/src/admin/pages/meeting/steps/BasicInfo.js:409
+msgid "Please select custom time"
+msgstr ""
+
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:136
+msgid "Fluent CRM Webhook"
+msgstr ""
+
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:144
+msgid "Enter fleunt crm webhook"
+msgstr ""
+
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:145
+msgid "this webhook is automatically copied from the global integration settings. if you want to change it, please click on the checkbox"
+msgstr ""
+
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:183
+msgid "Enter Pabbly webhook"
+msgstr ""
+
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:184
+#: assets/src/admin/pages/meeting/steps/Integrations.js:223
+msgid "This webhook is automatically copied from the global integration settings. if you want to change it, please click on the checkbox"
+msgstr ""
+
+#: assets/js/dashboard.js:371
+#: assets/src/admin/pages/meeting/steps/Integrations.js:222
+msgid "Enter zapier webhook"
+msgstr ""
+
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:352
+msgid "Minimum Notice Time for booking"
+msgstr ""
+
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:359
+msgid "Notice time add"
+msgstr ""
+
+#: assets/js/dashboard.js:393
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:384
+msgid "Meeting visibility"
+msgstr ""
+
+#: assets/js/dashboard.js:393
+#: assets/js/frontend.js:678
+#: assets/js/frontend.js:733
+#: assets/src/admin/pages/meeting/steps/TimeAvailability.js:419
+#: assets/src/frontend/paypal/CheckoutForm.js:40
+#: assets/src/frontend/stripe/CheckoutForm.js:112
+msgid "Back"
+msgstr ""
+
+#: assets/js/dashboard.js:415
+#: assets/js/dashboard.js:426
+#: assets/src/admin/pages/shortcodes/BookingForm.js:89
+#: assets/src/admin/pages/shortcodes/MeetingList.js:75
+msgid "Generate Shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:415
+#: assets/src/admin/pages/shortcodes/BookingForm.js:108
+msgid "Copy the shortcode and paste where you want to show booking form"
+msgstr ""
+
+#: assets/js/dashboard.js:426
+#: assets/src/admin/pages/shortcodes/MeetingList.js:43
+msgid "Meeting Limit"
+msgstr ""
+
+#: assets/js/dashboard.js:426
+#: assets/src/admin/pages/shortcodes/MeetingList.js:50
+msgid "Show Filters"
+msgstr ""
+
+#: assets/js/dashboard.js:426
+#: assets/src/admin/pages/shortcodes/MeetingList.js:65
+msgid "Select Option"
+msgstr ""
+
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:24
+msgid "Get booking form shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:51
+msgid "Booking form"
+msgstr ""
+
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:58
+msgid "Get meeting list shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:85
+msgid "Meeting List"
+msgstr ""
+
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:92
+msgid "Get User Dashboard shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:448
+#: assets/src/admin/pages/shortcodes/index.js:118
+msgid "User Dashboard"
+msgstr ""
+
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:7
+msgid "Department"
+msgstr ""
+
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:8
+msgid "Departments"
+msgstr ""
+
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:11
+msgid "Doctor"
+msgstr ""
+
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:15
+msgid "Appointment"
+msgstr ""
+
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:16
+msgid "Appointments"
+msgstr ""
+
+#: assets/js/dashboard.js:723
+#: assets/src/common/nicheData.js:19
+msgid "Patient"
+msgstr ""
+
+#: assets/js/frontend.js:381
+#: assets/src/frontend/pages/bookings/BookingSchedule.js:49
+msgid "Choose a time that works for you."
+msgstr ""
+
+#: assets/js/frontend.js:392
+#: assets/src/frontend/pages/bookings/BookingSlot.js:316
+msgid "No available slot."
+msgstr ""
+
+#: assets/js/frontend.js:403
+#: assets/src/frontend/pages/bookings/BookingStatus.js:41
+msgid "Booking canceled."
+msgstr ""
+
+#: assets/js/frontend.js:403
+#: assets/src/frontend/pages/bookings/BookingStatus.js:42
+msgid "Oops, it seems your booking was canceled."
+msgstr ""
+
+#: assets/js/frontend.js:403
+#: assets/src/frontend/pages/bookings/BookingStatus.js:62
+msgid "Book Again"
+msgstr ""
+
+#: assets/js/frontend.js:403
+#: assets/src/frontend/pages/bookings/BookingStatus.js:76
+msgid "Couldn't schedule this booking"
+msgstr ""
+
+#: assets/js/frontend.js:403
+#: assets/js/frontend.js:425
+#: assets/src/frontend/pages/bookings/BookingStatus.js:90
+#: assets/src/frontend/pages/bookings/CancelBooking.js:37
+msgid "Book again"
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:98
+msgid "This meeting is scheduled"
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:99
+msgid "We sent an email to you and the other attendees a calendar invitation with all the details."
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:109
+msgid "What"
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:117
+msgid "When"
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:172
+msgid "With"
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:182
+msgid "Where"
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:225
+msgid "Need to make a change? "
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:234
+msgid " or "
+msgstr ""
+
+#: assets/js/frontend.js:414
+#: assets/src/frontend/pages/bookings/BookingSuccess.js:241
+msgid "Cancel "
+msgstr ""
+
+#: assets/js/frontend.js:425
+#: assets/src/frontend/pages/bookings/CancelBooking.js:17
+msgid "Your booking schedule is canceled"
+msgstr ""
+
+#: assets/js/frontend.js:425
+#: assets/src/frontend/pages/bookings/CancelBooking.js:18
+msgid "Your booking schedule is canceled, please schedule book aging."
+msgstr ""
+
+#: assets/js/frontend.js:436
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/CancellationForm.js:138
+#: assets/src/frontend/pages/bookings/ContactInfo.js:295
+msgid "Give your information"
+msgstr ""
+
+#: assets/js/frontend.js:436
+#: assets/js/frontend.js:447
+#: assets/js/frontend.js:480
+#: assets/src/frontend/pages/bookings/CancellationForm.js:151
+#: assets/src/frontend/pages/bookings/ContactInfo.js:305
+#: assets/src/frontend/pages/bookings/PaymentForm.js:62
+msgid "with"
+msgstr ""
+
+#: assets/js/frontend.js:436
+#: assets/src/frontend/pages/bookings/CancellationForm.js:219
+msgid "Please tell us the reason to cancel"
+msgstr ""
+
+#: assets/js/frontend.js:436
+#: assets/src/frontend/pages/bookings/CancellationForm.js:237
+msgid "Cancel Appointment"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:342
+msgid "Enter your name!"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:347
+msgid "Enter your name"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:352
+msgid "E-mail"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:364
+msgid "Enter your e-mail!"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:372
+msgid "Enter your e-mail"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:403
+msgid "Location"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:409
+msgid "Location is required!"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:418
+msgid "Enter your location"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:499
+msgid "Additional notes"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:503
+msgid "Please share anything that will help prepare for our meeting"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:551
+msgid "Go back"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:563
+msgid "Reschedule Appointment"
+msgstr ""
+
+#: assets/js/frontend.js:447
+#: assets/src/frontend/pages/bookings/ContactInfo.js:582
+msgid "Confirm Appointment"
+msgstr ""
+
+#: assets/js/frontend.js:491
+#: assets/src/frontend/pages/bookings/PaymentOptionSelect.js:36
+msgid "Payment type"
+msgstr ""
+
+#: assets/js/frontend.js:491
+#: assets/src/frontend/pages/bookings/PaymentOptionSelect.js:43
+msgid "Payment type is required!"
+msgstr ""
+
+#: assets/js/frontend.js:535
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:76
+msgid "Selected seats: "
+msgstr ""
+
+#: assets/js/frontend.js:535
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:97
+msgid "Ticket quantity: "
+msgstr ""
+
+#: assets/js/frontend.js:535
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:103
+msgid "Total Price: "
+msgstr ""
+
+#: assets/js/frontend.js:535
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:337
+msgid "Continue booking?"
+msgstr ""
+
+#: assets/js/frontend.js:535
+#: assets/src/frontend/pages/bookings/SidebarInfo.js:402
+msgid "Timezone: "
+msgstr ""
+
+#: assets/js/frontend.js:590
+#: assets/src/frontend/pages/userAccount/BackButton.js:26
+msgid "Back booking list"
+msgstr ""
+
+#: assets/js/frontend.js:601
+#: assets/src/frontend/pages/userAccount/TableHeader.js:28
+msgid "Cancle"
+msgstr ""
+
+#: assets/js/frontend.js:601
+#: assets/src/frontend/pages/userAccount/TableHeader.js:103
+msgid "Free"
+msgstr ""
+
+#: assets/js/frontend.js:612
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:126
+msgid "Are you sure Reschedule this booking?"
+msgstr ""
+
+#: assets/js/frontend.js:612
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:150
+msgid "Are you sure to update this booking?"
+msgstr ""
+
+#: assets/js/frontend.js:612
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:183
+msgid "All Bookings"
+msgstr ""
+
+#: assets/js/frontend.js:612
+#: assets/src/frontend/pages/userAccount/UserBookingsList.js:195
+msgid "Are you sure delete selected bookings?"
+msgstr ""
+
+#: assets/js/frontend.js:623
+#: assets/js/frontend.js:645
+#: assets/src/frontend/pages/userAccount/UserChangePassword.js:71
+#: assets/src/frontend/pages/userAccount/UserProfile.js:68
+msgid "Edit profile"
+msgstr ""
+
+#: assets/js/frontend.js:634
+#: assets/src/frontend/pages/userAccount/UserInfo.js:35
+msgid "Edit Profile"
+msgstr ""
+
+#: assets/js/frontend.js:645
+#: assets/src/frontend/pages/userAccount/UserProfile.js:111
+msgid "Last name is required!"
+msgstr ""
+
+#: assets/js/frontend.js:645
+#: assets/src/frontend/pages/userAccount/UserProfile.js:147
+msgid "Enter your phone"
+msgstr ""
+
+#: assets/js/frontend.js:645
+#: assets/src/frontend/pages/userAccount/UserProfile.js:156
+msgid "Save change"
+msgstr ""
+
+#: assets/js/frontend.js:645
+#: assets/src/frontend/pages/userAccount/UserProfile.js:159
+msgid "Wants to change password? "
+msgstr ""
+
+#: assets/js/frontend.js:645
+#: assets/src/frontend/pages/userAccount/UserProfile.js:175
+msgid "Click Here"
+msgstr ""
+
+#: assets/js/frontend.js:733
+#: assets/src/frontend/stripe/CheckoutForm.js:123
+msgid "Pay now"
+msgstr ""
+
+#: assets/src/admin/module/onboard/components/Calendar.js:26
+msgid "iCal Calendar"
+msgstr ""
+
+#: assets/src/admin/module/onboard/components/Calendar.js:31
+msgid "Outlook Calendar"
+msgstr ""
+
+#: assets/src/admin/module/onboard/components/Calendar.js:39
+msgid "Connect Your Calendar"
+msgstr ""
+
+#: assets/src/admin/module/onboard/components/Calendar.js:40
+msgid "Connect your preferred calendar with Timetics so that you won’t miss a single meeting."
+msgstr ""

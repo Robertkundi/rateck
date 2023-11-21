@@ -1,0 +1,45 @@
+a:4:{s:8:"template";s:7:"bascart";s:4:"mods";a:27:{i:0;b:0;s:18:"nav_menu_locations";a:0:{}s:18:"custom_css_post_id";i:451;s:9:"body_font";s:126:"{"color":"#697780","family":"Inter","weight":"regular","style":"cyrillic","size":"15","line_height":"22","letter_spacing":"0"}";s:16:"heading_font_one";s:114:"{"color":"","family":"Inter","weight":"700","style":"cyrillic","size":"90","line_height":"0","letter_spacing":"0"}";s:17:"heading_font_five";s:125:"{"color":"#0C3E5B","family":"Inter","weight":"regular","style":"cyrillic","size":"23","line_height":"0","letter_spacing":"0"}";s:16:"heading_font_two";s:120:"{"color":"#0C3E5B","family":"Inter","weight":"700","style":"cyrillic","size":"0","line_height":"0","letter_spacing":"0"}";s:18:"heading_font_three";s:121:"{"color":"#0C3E5B","family":"Inter","weight":"700","style":"cyrillic","size":"45","line_height":"0","letter_spacing":"0"}";s:17:"heading_font_four";s:121:"{"color":"#0C3E5B","family":"Inter","weight":"700","style":"cyrillic","size":"32","line_height":"0","letter_spacing":"0"}";s:16:"heading_font_six";s:125:"{"color":"#0C3E5B","family":"Inter","weight":"regular","style":"cyrillic","size":"16","line_height":"0","letter_spacing":"0"}";s:13:"style_primary";s:7:"#1187ff";s:15:"secondary_color";s:7:"#0c3e5b";s:23:"page_banner_title_color";s:7:"#ffffff";s:25:"page_banner_overlay_color";s:16:"rgba(0,0,0,0.02)";s:18:"banner_title_color";s:7:"#ffffff";s:20:"banner_overlay_color";s:16:"rgba(0,0,0,0.02)";s:26:"details_banner_title_color";s:7:"#ffffff";s:28:"details_banner_overlay_color";s:16:"rgba(0,0,0,0.02)";s:22:"woo_banner_title_color";s:7:"#ffffff";s:24:"woo_banner_overlay_color";s:16:"rgba(0,0,0,0.02)";s:13:"style_body_bg";s:7:"#ffffff";s:17:"footer_text_color";s:7:"#666666";s:17:"footer_link_color";s:7:"#666666";s:22:"footer_copyright_color";s:7:"#ffffff";s:19:"woo_show_breadcrumb";s:3:"yes";s:28:"page_banner_breadcrumb_color";s:7:"#ffffff";s:16:"sidebars_widgets";a:2:{s:4:"time";i:1643632387;s:4:"data";a:6:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:5:{i:0;s:7:"block-2";i:1;s:7:"block-3";i:2;s:7:"block-4";i:3;s:7:"block-5";i:4;s:7:"block-6";}s:11:"sidebar-woo";a:0:{}s:11:"footer-left";a:0:{}s:13:"footer-center";a:0:{}s:12:"footer-right";a:0:{}}}}s:7:"options";a:22:{s:22:"woocommerce_demo_store";s:2:"no";s:29:"woocommerce_demo_store_notice";s:79:"This is a demo store for testing purposes &mdash; no orders shall be fulfilled.";s:29:"woocommerce_shop_page_display";s:0:"";s:36:"woocommerce_category_archive_display";s:0:"";s:35:"woocommerce_default_catalog_orderby";s:10:"menu_order";s:27:"woocommerce_catalog_columns";s:1:"4";s:24:"woocommerce_catalog_rows";s:1:"3";s:30:"woocommerce_single_image_width";s:3:"600";s:33:"woocommerce_thumbnail_image_width";s:3:"300";s:30:"woocommerce_thumbnail_cropping";s:3:"1:1";s:43:"woocommerce_thumbnail_cropping_custom_width";s:1:"4";s:44:"woocommerce_thumbnail_cropping_custom_height";s:1:"3";s:34:"woocommerce_checkout_company_field";s:8:"optional";s:36:"woocommerce_checkout_address_2_field";s:8:"optional";s:32:"woocommerce_checkout_phone_field";s:8:"required";s:46:"woocommerce_checkout_highlight_required_fields";s:3:"yes";s:55:"woocommerce_checkout_terms_and_conditions_checkbox_text";s:44:"I have read and agree to the website [terms]";s:40:"woocommerce_checkout_privacy_policy_text";s:161:"Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy].";s:26:"wp_page_for_privacy_policy";s:1:"0";s:25:"woocommerce_terms_page_id";s:0:"";s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:1149:"/* Cart and Checkout update */
+.woocommerce-cart-form__cart-item .product-name a,
+.single-product .breadcrumb li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bascart-checkout-steps ul li a {
+    letter-spacing: 0;
+}
+.woocommerce-cart form.woocommerce-cart-form .shop_table thead tr th,
+.woocommerce-cart form.woocommerce-cart-form .shop_table tr td,
+.bascart-checkout-steps ul li a,
+strong,
+.woocommerce table.shop_table tbody th,
+.woocommerce-cart .cart-collaterals .shop_table tr.order-total th,
+.bascart-checkout-steps ul li {
+	font-weight: 500;
+}
+.bascart-checkout-steps ul li:not(:last-child)::after {
+    font-size: 14px;
+    top: 8px;
+}
+.bascart-checkout-steps ul li {
+    padding: 0 25px 0 0;
+}
+.woocommerce-billing-fields h3,
+.woocommerce-checkout h3{
+    font-size: 30px;
+}
+
+/* Mini cart remove button css */
+
+.xs-sidebar-group .xs-minicart-widget .widget_shopping_cart ul.woocommerce-mini-cart li a.remove {
+    right: 5px;
+    top: 10px;
+}
+
+.xs-sidebar-group .xs-minicart-widget .widget_shopping_cart ul.woocommerce-mini-cart li a:hover {
+    color: #2575fc !important;
+}
+
+.woocommerce div.product form.cart .button {
+    order: 1;
+}";}

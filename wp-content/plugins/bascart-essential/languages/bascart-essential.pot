@@ -1,0 +1,3227 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bascart Essentials\n"
+"POT-Creation-Date: 2022-02-09 16:59+0600\n"
+"PO-Revision-Date: 2022-02-09 16:59+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bascart-essential.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: bascart-essential.php:96
+#: includes/widgets/product-filters/product-filters-config.php:14
+msgid "Product Filters"
+msgstr ""
+
+#: includes/hooks/global.php:13
+msgid "Show Cart Title"
+msgstr ""
+
+#: includes/hooks/global.php:23
+msgid "Cart Title"
+msgstr ""
+
+#: includes/hooks/global.php:25
+msgid "My Cart"
+msgstr ""
+
+#: includes/hooks/global.php:37
+#: includes/widgets/advanced-tab/advanced-tab.php:366
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:69
+msgid "Click"
+msgstr ""
+
+#: includes/hooks/global.php:38
+#: includes/widgets/advanced-tab/advanced-tab.php:367
+#: includes/widgets/instagram-feed/instagram-feed.php:617
+#: includes/widgets/instagram-feed/instagram-feed.php:902
+#: includes/widgets/instagram-feed/instagram-feed.php:1174
+#: includes/widgets/popup-modal/popup-modal.php:154
+#: includes/widgets/popup-modal/popup-modal.php:707
+#: includes/widgets/product-filters/product-filters.php:1543
+#: includes/widgets/vertical-menu/vertical-menu.php:437
+#: includes/widgets/vertical-menu/vertical-menu.php:545
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:70
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:230
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:457
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:578
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:639
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:867
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1114
+#: modules/elements/gallery/gallery.php:510
+#: modules/elements/gallery/gallery.php:739
+#: modules/elements/gallery/gallery.php:1192
+#: modules/elements/gallery/gallery.php:1381
+#: modules/elements/gallery/gallery.php:1570
+#: modules/elements/gallery/gallery.php:1801
+#: modules/elements/gallery/gallery.php:1982
+msgid "Hover"
+msgstr ""
+
+#: includes/hooks/global.php:39
+msgid "Off Canvas"
+msgstr ""
+
+#: includes/hooks/global.php:57
+msgid "Shopping cart"
+msgstr ""
+
+#: includes/post-type/post-class.php:30 includes/post-type/post-class.php:81
+msgid "Add New "
+msgstr ""
+
+#: includes/post-type/post-class.php:31 includes/post-type/post-class.php:82
+msgid "Edit "
+msgstr ""
+
+#: includes/post-type/post-class.php:32 includes/post-type/post-class.php:80
+msgid "New "
+msgstr ""
+
+#: includes/post-type/post-class.php:33
+msgid "View "
+msgstr ""
+
+#: includes/post-type/post-class.php:34 includes/post-type/post-class.php:85
+msgid "Search "
+msgstr ""
+
+#: includes/post-type/post-class.php:35 includes/post-type/post-class.php:36
+msgid "No "
+msgstr ""
+
+#: includes/post-type/post-class.php:37 includes/post-type/post-class.php:88
+#: includes/post-type/post-class.php:90
+msgid "Parent "
+msgstr ""
+
+#: includes/post-type/post-class.php:83
+msgid "Update "
+msgstr ""
+
+#: includes/post-type/post-class.php:84
+msgid "Add or remove "
+msgstr ""
+
+#: includes/post-type/post-class.php:86
+msgid "Popular "
+msgstr ""
+
+#: includes/post-type/post-class.php:87
+msgid "All "
+msgstr ""
+
+#: includes/post-type/post-class.php:89
+msgid "Choose from the most used "
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab-handler.php:11
+#: includes/widgets/advanced-tab/advanced-tab.php:38
+msgid "Advanced Tab"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:45
+#: modules/elements/gallery/gallery.php:93
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:49
+msgid "Horizontal"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:50
+msgid "Vertical"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:58
+msgid "Vertical Nav Width"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:83
+#: modules/elements/gallery/gallery.php:2159
+msgid "Show Caret"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:85
+#: includes/widgets/advanced-tab/advanced-tab.php:141
+#: includes/widgets/instagram-feed/instagram-feed.php:94
+#: includes/widgets/instagram-feed/instagram-feed.php:132
+#: includes/widgets/instagram-feed/instagram-feed.php:185
+#: includes/widgets/instagram-feed/instagram-feed.php:201
+#: includes/widgets/instagram-feed/instagram-feed.php:218
+#: includes/widgets/instagram-feed/instagram-feed.php:231
+#: includes/widgets/instagram-feed/instagram-feed.php:245
+#: includes/widgets/popup-modal/popup-modal.php:1240
+#: includes/widgets/popup-modal/popup-modal.php:1300
+#: includes/widgets/product-filters/product-filters.php:122
+#: includes/widgets/product-filters/product-filters.php:174
+#: includes/widgets/product-filters/product-filters.php:238
+#: includes/widgets/product-filters/product-filters.php:318
+#: includes/widgets/product-filters/product-filters.php:360
+#: includes/widgets/product-filters/product-filters.php:400
+#: includes/widgets/product-filters/product-filters.php:440
+#: includes/widgets/product-filters/product-filters.php:480
+#: includes/widgets/product-filters/product-filters.php:581
+#: includes/widgets/product-filters/product-filters.php:1119
+#: includes/widgets/product-filters/product-filters.php:1131
+#: includes/widgets/vertical-menu/vertical-menu.php:85
+#: includes/widgets/vertical-menu/vertical-menu.php:96
+#: includes/widgets/vertical-menu/vertical-menu.php:112
+#: modules/elements/gallery/gallery.php:224
+#: modules/elements/gallery/gallery.php:236
+#: modules/elements/gallery/gallery.php:249
+#: modules/elements/gallery/gallery.php:261
+#: modules/elements/gallery/gallery.php:1005
+#: modules/elements/gallery/gallery.php:1899
+#: modules/elements/gallery/gallery.php:2161
+#: modules/elements/gallery/gallery.php:2404
+#: modules/parallax/extend-controls.php:28
+#: modules/parallax/extend-controls.php:53
+#: modules/parallax/section-controls.php:25
+#: modules/parallax/section-controls.php:52
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:86
+#: includes/widgets/advanced-tab/advanced-tab.php:142
+#: includes/widgets/instagram-feed/instagram-feed.php:95
+#: includes/widgets/instagram-feed/instagram-feed.php:133
+#: includes/widgets/instagram-feed/instagram-feed.php:186
+#: includes/widgets/instagram-feed/instagram-feed.php:202
+#: includes/widgets/instagram-feed/instagram-feed.php:219
+#: includes/widgets/instagram-feed/instagram-feed.php:232
+#: includes/widgets/instagram-feed/instagram-feed.php:246
+#: includes/widgets/product-filters/product-filters.php:123
+#: includes/widgets/product-filters/product-filters.php:175
+#: includes/widgets/product-filters/product-filters.php:239
+#: includes/widgets/product-filters/product-filters.php:319
+#: includes/widgets/product-filters/product-filters.php:361
+#: includes/widgets/product-filters/product-filters.php:401
+#: includes/widgets/product-filters/product-filters.php:441
+#: includes/widgets/product-filters/product-filters.php:481
+#: includes/widgets/product-filters/product-filters.php:582
+#: includes/widgets/product-filters/product-filters.php:1120
+#: includes/widgets/product-filters/product-filters.php:1132
+#: includes/widgets/vertical-menu/vertical-menu.php:86
+#: includes/widgets/vertical-menu/vertical-menu.php:97
+#: includes/widgets/vertical-menu/vertical-menu.php:113
+#: modules/elements/gallery/gallery.php:225
+#: modules/elements/gallery/gallery.php:237
+#: modules/elements/gallery/gallery.php:250
+#: modules/elements/gallery/gallery.php:262
+#: modules/elements/gallery/gallery.php:1006
+#: modules/elements/gallery/gallery.php:1900
+#: modules/elements/gallery/gallery.php:2162
+#: modules/elements/gallery/gallery.php:2405
+#: modules/parallax/extend-controls.php:29
+#: modules/parallax/extend-controls.php:54
+#: modules/parallax/section-controls.php:26
+#: modules/parallax/section-controls.php:53
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:95
+msgid "Choose Style"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:100
+msgid "image style 1"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:106
+msgid "image style 2"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:112
+msgid "image style 3"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:118
+msgid "image style 4"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:124
+msgid "image style 5"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:139
+msgid "Full Width Nav"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:154
+msgid "Nav Icon Position"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:158
+#: includes/widgets/advanced-tab/advanced-tab.php:281
+#: includes/widgets/advanced-tab/advanced-tab.php:311
+#: includes/widgets/advanced-tab/advanced-tab.php:337
+#: includes/widgets/instagram-feed/instagram-feed.php:293
+#: includes/widgets/popup-modal/popup-modal.php:295
+#: includes/widgets/popup-modal/popup-modal.php:783
+#: includes/widgets/popup-modal/popup-modal.php:913
+#: includes/widgets/popup-modal/popup-modal.php:1352
+#: includes/widgets/product-filters/product-filters.php:561
+#: includes/widgets/product-filters/product-filters.php:611
+#: includes/widgets/vertical-menu/vertical-menu.php:69
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:91
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:289
+#: modules/elements/gallery/gallery.php:183
+#: modules/elements/gallery/gallery.php:2117
+#: modules/elements/gallery/gallery.php:2146
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:159
+#: includes/widgets/advanced-tab/advanced-tab.php:273
+#: includes/widgets/advanced-tab/advanced-tab.php:303
+#: includes/widgets/advanced-tab/advanced-tab.php:329
+#: includes/widgets/advanced-tab/advanced-tab.php:1043
+#: includes/widgets/advanced-tab/advanced-tab.php:1164
+#: includes/widgets/advanced-tab/advanced-tab.php:1534
+#: includes/widgets/instagram-feed/instagram-feed.php:285
+#: includes/widgets/popup-modal/popup-modal.php:293
+#: includes/widgets/popup-modal/popup-modal.php:775
+#: includes/widgets/popup-modal/popup-modal.php:905
+#: includes/widgets/popup-modal/popup-modal.php:1340
+#: includes/widgets/product-filters/product-filters.php:553
+#: includes/widgets/product-filters/product-filters.php:610
+#: includes/widgets/vertical-menu/vertical-menu.php:70
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:83
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:285
+#: modules/elements/gallery/gallery.php:175
+#: modules/elements/gallery/gallery.php:2105
+#: modules/elements/gallery/gallery.php:2138
+#: modules/elements/gallery/gallery.php:2611
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:160
+#: includes/widgets/popup-modal/popup-modal.php:294
+#: modules/elements/gallery/gallery.php:201
+#: modules/elements/gallery/gallery.php:2236
+#: modules/sticky-content/extend-controls.php:28
+#: modules/sticky-content/module.php:41
+msgid "Top"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:161
+#: includes/widgets/advanced-tab/advanced-tab.php:1134
+#: includes/widgets/advanced-tab/advanced-tab.php:1503
+#: includes/widgets/popup-modal/popup-modal.php:296
+#: modules/elements/gallery/gallery.php:209
+#: modules/elements/gallery/gallery.php:2343
+#: modules/elements/gallery/gallery.php:2581
+#: modules/sticky-content/extend-controls.php:29
+#: modules/sticky-content/module.php:42
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:168
+#: includes/widgets/advanced-tab/advanced-tab.php:193
+#: includes/widgets/advanced-tab/advanced-tab.php:218
+#: includes/widgets/advanced-tab/advanced-tab.php:243
+#: includes/widgets/vertical-menu/vertical-menu.php:413
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:269
+msgid "Nav Alignment"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:277
+#: includes/widgets/advanced-tab/advanced-tab.php:307
+#: includes/widgets/advanced-tab/advanced-tab.php:333
+#: includes/widgets/instagram-feed/instagram-feed.php:289
+#: includes/widgets/popup-modal/popup-modal.php:279
+#: includes/widgets/popup-modal/popup-modal.php:779
+#: includes/widgets/popup-modal/popup-modal.php:909
+#: includes/widgets/popup-modal/popup-modal.php:1344
+#: includes/widgets/product-filters/product-filters.php:557
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:87
+#: modules/elements/gallery/gallery.php:179
+#: modules/elements/gallery/gallery.php:205
+#: modules/elements/gallery/gallery.php:2109
+#: modules/elements/gallery/gallery.php:2142
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:299
+msgid "Nav Content Alignment"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:325
+msgid "Nav Item Alignment"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:352
+msgid "Enable URL Hash"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:362
+msgid "Toggle Type"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:376
+#: includes/widgets/popup-modal/popup-modal.php:1480
+#: includes/widgets/product-filters/product-filters.php:51
+#: includes/widgets/product-filters/product-filters.php:135
+#: includes/widgets/product-filters/product-filters.php:162
+#: includes/widgets/product-filters/product-filters.php:213
+#: includes/widgets/product-filters/product-filters.php:306
+#: includes/widgets/product-filters/product-filters.php:348
+#: includes/widgets/product-filters/product-filters.php:388
+#: includes/widgets/product-filters/product-filters.php:428
+#: includes/widgets/product-filters/product-filters.php:468
+#: includes/widgets/product-filters/product-filters.php:1100
+#: includes/widgets/vertical-menu/vertical-menu.php:130
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:384
+#: includes/widgets/popup-modal/popup-modal.php:1525
+msgid "Sub Title"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:393
+msgid "Z-Index"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:408
+msgid "Keep this tab open? "
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:411
+#: includes/widgets/advanced-tab/advanced-tab.php:529
+#: includes/widgets/product-filters/product-filters.php:253
+#: includes/widgets/product-filters/product-filters.php:265
+#: includes/widgets/product-filters/product-filters.php:280
+#: modules/elements/gallery/gallery.php:2091
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:412
+#: includes/widgets/advanced-tab/advanced-tab.php:530
+#: includes/widgets/product-filters/product-filters.php:254
+#: includes/widgets/product-filters/product-filters.php:266
+#: includes/widgets/product-filters/product-filters.php:281
+#: modules/elements/gallery/gallery.php:2092
+msgid "No"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:418
+msgid "Icon Type"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:423
+#: includes/widgets/product-filters/product-filters.php:656
+#: modules/parallax/extend-controls.php:486
+#: modules/parallax/section-controls.php:515
+#: modules/parallax/widget-controls.php:29
+#: modules/parallax/widget-controls.php:648
+#: modules/sticky-content/extend-controls.php:27
+#: modules/sticky-content/module.php:40
+msgid "None"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:427
+#: includes/widgets/instagram-feed/instagram-feed.php:594
+#: includes/widgets/instagram-feed/instagram-feed.php:666
+#: includes/widgets/popup-modal/popup-modal.php:808
+#: includes/widgets/popup-modal/popup-modal.php:1149
+#: includes/widgets/product-filters/product-filters.php:591
+#: includes/widgets/vertical-menu/vertical-menu.php:191
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:52
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:431
+#: includes/widgets/popup-modal/popup-modal.php:235
+#: modules/swatches/admin-product.php:173
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:440
+msgid "Title Icon"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:457
+#: includes/widgets/popup-modal/popup-modal.php:883
+#: modules/parallax/extend-controls.php:96
+#: modules/parallax/section-controls.php:95
+msgid "Choose Image"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:470
+#: includes/widgets/instagram-feed/instagram-feed.php:852
+#: includes/widgets/popup-modal/popup-modal.php:302
+#: includes/widgets/popup-modal/popup-modal.php:1005
+#: includes/widgets/popup-modal/popup-modal.php:1015
+#: includes/widgets/popup-modal/popup-modal.php:1591
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:44
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:485
+msgid "Title Border Radius"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:496
+msgid "Tab content"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:519
+msgid "Nav Wrapper  "
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:527
+msgid "Make Fluid"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:541
+#: includes/widgets/advanced-tab/advanced-tab.php:754
+#: includes/widgets/advanced-tab/advanced-tab.php:826
+#: includes/widgets/advanced-tab/advanced-tab.php:1001
+#: includes/widgets/advanced-tab/advanced-tab.php:1122
+#: includes/widgets/advanced-tab/advanced-tab.php:1282
+#: includes/widgets/advanced-tab/advanced-tab.php:1566
+#: includes/widgets/advanced-tab/advanced-tab.php:1590
+#: includes/widgets/advanced-tab/advanced-tab.php:1806
+#: includes/widgets/advanced-tab/advanced-tab.php:1830
+#: includes/widgets/instagram-feed/instagram-feed.php:343
+#: includes/widgets/instagram-feed/instagram-feed.php:1009
+#: includes/widgets/popup-modal/popup-modal.php:112
+#: includes/widgets/popup-modal/popup-modal.php:162
+#: includes/widgets/popup-modal/popup-modal.php:679
+#: includes/widgets/popup-modal/popup-modal.php:715
+#: includes/widgets/popup-modal/popup-modal.php:1449
+#: includes/widgets/popup-modal/popup-modal.php:1599
+#: includes/widgets/popup-modal/popup-modal.php:1673
+#: includes/widgets/vertical-menu/vertical-menu.php:249
+#: includes/widgets/vertical-menu/vertical-menu.php:304
+#: includes/widgets/vertical-menu/vertical-menu.php:329
+#: modules/elements/gallery/gallery.php:2264
+#: modules/elements/gallery/gallery.php:2376
+#: modules/elements/gallery/gallery.php:2418
+#: modules/elements/gallery/gallery.php:2506
+#: modules/elements/gallery/gallery.php:2809
+#: modules/elements/gallery/gallery.php:2862
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:549
+#: includes/widgets/advanced-tab/advanced-tab.php:700
+#: includes/widgets/advanced-tab/advanced-tab.php:1975
+#: includes/widgets/advanced-tab/advanced-tab.php:2040
+#: includes/widgets/instagram-feed/instagram-feed.php:530
+#: includes/widgets/instagram-feed/instagram-feed.php:701
+#: includes/widgets/instagram-feed/instagram-feed.php:1080
+#: includes/widgets/popup-modal/popup-modal.php:596
+#: includes/widgets/popup-modal/popup-modal.php:980
+#: includes/widgets/popup-modal/popup-modal.php:1455
+#: includes/widgets/popup-modal/popup-modal.php:1627
+#: includes/widgets/popup-modal/popup-modal.php:1679
+#: includes/widgets/popup-modal/popup-modal.php:1743
+#: includes/widgets/popup-modal/popup-modal.php:1770
+#: includes/widgets/vertical-menu/vertical-menu.php:258
+#: includes/widgets/vertical-menu/vertical-menu.php:401
+#: includes/widgets/vertical-menu/vertical-menu.php:521
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:116
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:326
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:404
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:501
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:810
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:922
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1025
+#: modules/elements/gallery/gallery.php:1103
+#: modules/elements/gallery/gallery.php:1293
+#: modules/elements/gallery/gallery.php:1482
+#: modules/elements/gallery/gallery.php:2729
+#: modules/elements/gallery/gallery.php:2916
+msgid "Padding"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:568
+#: includes/widgets/advanced-tab/advanced-tab.php:2104
+#: includes/widgets/popup-modal/popup-modal.php:1510
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:338
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:416
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:798
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:940
+#: modules/elements/gallery/gallery.php:1091
+#: modules/elements/gallery/gallery.php:1281
+#: modules/elements/gallery/gallery.php:1470
+msgid "Margin"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:588
+#: includes/widgets/advanced-tab/advanced-tab.php:763
+#: includes/widgets/advanced-tab/advanced-tab.php:835
+#: includes/widgets/advanced-tab/advanced-tab.php:1319
+#: includes/widgets/advanced-tab/advanced-tab.php:1604
+#: includes/widgets/advanced-tab/advanced-tab.php:2003
+#: includes/widgets/advanced-tab/advanced-tab.php:2060
+#: includes/widgets/instagram-feed/instagram-feed.php:360
+#: includes/widgets/instagram-feed/instagram-feed.php:1122
+#: includes/widgets/popup-modal/popup-modal.php:48
+#: includes/widgets/vertical-menu/vertical-menu.php:426
+#: includes/widgets/vertical-menu/vertical-menu.php:534
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:220
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:258
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:363
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:670
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:855
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:899
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1104
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1141
+#: modules/elements/gallery/gallery.php:500
+#: modules/elements/gallery/gallery.php:527
+#: modules/elements/gallery/gallery.php:1149
+#: modules/elements/gallery/gallery.php:1339
+#: modules/elements/gallery/gallery.php:1528
+#: modules/elements/gallery/gallery.php:1685
+#: modules/elements/gallery/gallery.php:2707
+#: modules/elements/gallery/gallery.php:2905
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:596
+#: includes/widgets/advanced-tab/advanced-tab.php:853
+#: includes/widgets/advanced-tab/advanced-tab.php:1727
+#: includes/widgets/advanced-tab/advanced-tab.php:2010
+#: includes/widgets/advanced-tab/advanced-tab.php:2067
+#: includes/widgets/instagram-feed/instagram-feed.php:380
+#: includes/widgets/instagram-feed/instagram-feed.php:1092
+#: includes/widgets/popup-modal/popup-modal.php:71
+#: includes/widgets/popup-modal/popup-modal.php:1465
+#: includes/widgets/popup-modal/popup-modal.php:1689
+#: includes/widgets/product-filters/product-filters.php:1068
+#: includes/widgets/vertical-menu/vertical-menu.php:270
+#: includes/widgets/vertical-menu/vertical-menu.php:347
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:171
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:373
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:678
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:772
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1056
+#: modules/elements/gallery/gallery.php:469
+#: modules/elements/gallery/gallery.php:1159
+#: modules/elements/gallery/gallery.php:1349
+#: modules/elements/gallery/gallery.php:1538
+#: modules/elements/gallery/gallery.php:1695
+#: modules/elements/gallery/gallery.php:2717
+#: modules/elements/gallery/gallery.php:2877
+msgid "Border Radius"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:608
+#: includes/widgets/advanced-tab/advanced-tab.php:788
+#: includes/widgets/advanced-tab/advanced-tab.php:843
+#: includes/widgets/advanced-tab/advanced-tab.php:2022
+#: includes/widgets/advanced-tab/advanced-tab.php:2079
+#: includes/widgets/instagram-feed/instagram-feed.php:372
+#: includes/widgets/instagram-feed/instagram-feed.php:1164
+#: includes/widgets/instagram-feed/instagram-feed.php:1218
+#: includes/widgets/popup-modal/popup-modal.php:123
+#: includes/widgets/popup-modal/popup-modal.php:173
+#: includes/widgets/popup-modal/popup-modal.php:590
+#: includes/widgets/popup-modal/popup-modal.php:958
+#: includes/widgets/vertical-menu/vertical-menu.php:339
+#: modules/elements/gallery/gallery.php:491
+#: modules/elements/gallery/gallery.php:518
+#: modules/elements/gallery/gallery.php:1181
+#: modules/elements/gallery/gallery.php:1245
+#: modules/elements/gallery/gallery.php:1371
+#: modules/elements/gallery/gallery.php:1434
+#: modules/elements/gallery/gallery.php:1560
+#: modules/elements/gallery/gallery.php:1623
+#: modules/elements/gallery/gallery.php:2893
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:617
+msgid "Nav Items  "
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:625
+#: includes/widgets/advanced-tab/advanced-tab.php:2096
+#: includes/widgets/instagram-feed/instagram-feed.php:892
+#: includes/widgets/instagram-feed/instagram-feed.php:1105
+#: includes/widgets/popup-modal/popup-modal.php:1496
+#: includes/widgets/popup-modal/popup-modal.php:1547
+#: includes/widgets/popup-modal/popup-modal.php:1618
+#: includes/widgets/product-filters/product-filters.php:1174
+#: includes/widgets/vertical-menu/vertical-menu.php:229
+#: includes/widgets/vertical-menu/vertical-menu.php:382
+#: includes/widgets/vertical-menu/vertical-menu.php:502
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:153
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:713
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:962
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:992
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1038
+#: modules/elements/gallery/gallery.php:1083
+#: modules/elements/gallery/gallery.php:1273
+#: modules/elements/gallery/gallery.php:1462
+#: modules/elements/gallery/gallery.php:2674
+#: modules/elements/gallery/gallery.php:2765
+msgid "Typography"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:633
+#: includes/widgets/popup-modal/popup-modal.php:646
+#: includes/widgets/popup-modal/popup-modal.php:830
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:128
+#: modules/elements/gallery/gallery.php:1707
+msgid "Icon Size"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:658
+#: includes/widgets/instagram-feed/instagram-feed.php:736
+msgid "Margin Right"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:679
+#: includes/widgets/instagram-feed/instagram-feed.php:392
+#: includes/widgets/instagram-feed/instagram-feed.php:713
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:723
+#: includes/widgets/advanced-tab/advanced-tab.php:2120
+#: includes/widgets/instagram-feed/instagram-feed.php:545
+#: includes/widgets/instagram-feed/instagram-feed.php:763
+#: includes/widgets/instagram-feed/instagram-feed.php:1132
+#: includes/widgets/popup-modal/popup-modal.php:104
+#: includes/widgets/popup-modal/popup-modal.php:563
+#: includes/widgets/popup-modal/popup-modal.php:671
+#: includes/widgets/product-filters/product-filters.php:1213
+#: includes/widgets/product-filters/product-filters.php:1510
+#: includes/widgets/vertical-menu/vertical-menu.php:221
+#: includes/widgets/vertical-menu/vertical-menu.php:374
+#: includes/widgets/vertical-menu/vertical-menu.php:475
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:192
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:436
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:557
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:618
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:823
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1077
+#: modules/elements/gallery/gallery.php:483
+#: modules/elements/gallery/gallery.php:543
+#: modules/elements/gallery/gallery.php:566
+#: modules/elements/gallery/gallery.php:1117
+#: modules/elements/gallery/gallery.php:1307
+#: modules/elements/gallery/gallery.php:1496
+#: modules/elements/gallery/gallery.php:1652
+#: modules/elements/gallery/gallery.php:1878
+#: modules/elements/gallery/gallery.php:1911
+#: modules/elements/gallery/gallery.php:2666
+#: modules/parallax/extend-controls.php:367
+#: modules/parallax/section-controls.php:394
+#: modules/parallax/widget-controls.php:136
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:729
+#: includes/widgets/advanced-tab/advanced-tab.php:803
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:741
+#: includes/widgets/advanced-tab/advanced-tab.php:814
+msgid "Icon Color"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:797
+#: includes/widgets/advanced-tab/advanced-tab.php:2140
+#: includes/widgets/vertical-menu/vertical-menu.php:285
+#: modules/elements/gallery/gallery.php:2757
+msgid "Active"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:867
+msgid "First and Last Child Border Radius"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:876
+msgid "First Child Border Radius"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:888
+msgid "First Child Border Width"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:900
+msgid "Last Child Border Radius"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:912
+msgid "Last Child Border Width"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:928
+msgid "Caret  "
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:940
+#: includes/widgets/advanced-tab/advanced-tab.php:1069
+#: includes/widgets/advanced-tab/advanced-tab.php:1190
+#: includes/widgets/advanced-tab/advanced-tab.php:1443
+#: includes/widgets/advanced-tab/advanced-tab.php:1753
+#: includes/widgets/popup-modal/popup-modal.php:311
+#: includes/widgets/popup-modal/popup-modal.php:349
+#: includes/widgets/popup-modal/popup-modal.php:934
+#: includes/widgets/vertical-menu/vertical-menu.php:482
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:303
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:747
+#: modules/elements/gallery/gallery.php:1041
+#: modules/elements/gallery/gallery.php:2174
+#: modules/elements/gallery/gallery.php:2281
+#: modules/elements/gallery/gallery.php:2434
+#: modules/elements/gallery/gallery.php:2521
+#: modules/parallax/extend-controls.php:148
+#: modules/parallax/section-controls.php:147
+msgid "Width"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:970
+#: includes/widgets/advanced-tab/advanced-tab.php:1095
+#: includes/widgets/advanced-tab/advanced-tab.php:1220
+#: includes/widgets/advanced-tab/advanced-tab.php:1473
+#: includes/widgets/advanced-tab/advanced-tab.php:1779
+#: includes/widgets/popup-modal/popup-modal.php:383
+#: includes/widgets/popup-modal/popup-modal.php:401
+#: includes/widgets/popup-modal/popup-modal.php:944
+#: includes/widgets/popup-modal/popup-modal.php:1563
+#: includes/widgets/popup-modal/popup-modal.php:1711
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:722
+#: modules/elements/gallery/gallery.php:2205
+#: modules/elements/gallery/gallery.php:2312
+#: modules/elements/gallery/gallery.php:2466
+#: modules/elements/gallery/gallery.php:2551
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1013
+#: includes/widgets/advanced-tab/advanced-tab.php:1667
+msgid "Bottom Icon Position"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1250
+msgid "Bottom Line"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1306
+msgid "Hear Symbol Background"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1330
+#: includes/widgets/advanced-tab/advanced-tab.php:1615
+#: includes/widgets/advanced-tab/advanced-tab.php:1842
+msgid "Caret Width"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1356
+#: includes/widgets/advanced-tab/advanced-tab.php:1641
+#: includes/widgets/advanced-tab/advanced-tab.php:1868
+msgid "Caret Height"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1382
+#: includes/widgets/advanced-tab/advanced-tab.php:1894
+msgid "Bottom Position"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1412
+#: includes/widgets/advanced-tab/advanced-tab.php:1697
+#: includes/widgets/advanced-tab/advanced-tab.php:1924
+msgid "Left Position"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1957
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:273
+msgid "Body"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:1964
+msgid "Body Color"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:2033
+msgid "Wrapper"
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:2088
+msgid "Sub Title  "
+msgstr ""
+
+#: includes/widgets/advanced-tab/advanced-tab.php:2126
+#: includes/widgets/advanced-tab/advanced-tab.php:2146
+#: includes/widgets/instagram-feed/instagram-feed.php:561
+#: includes/widgets/instagram-feed/instagram-feed.php:582
+#: includes/widgets/instagram-feed/instagram-feed.php:603
+#: includes/widgets/instagram-feed/instagram-feed.php:633
+#: includes/widgets/instagram-feed/instagram-feed.php:654
+#: includes/widgets/instagram-feed/instagram-feed.php:675
+#: includes/widgets/instagram-feed/instagram-feed.php:779
+#: includes/widgets/instagram-feed/instagram-feed.php:795
+#: includes/widgets/instagram-feed/instagram-feed.php:820
+#: includes/widgets/instagram-feed/instagram-feed.php:836
+#: includes/widgets/instagram-feed/instagram-feed.php:861
+#: includes/widgets/instagram-feed/instagram-feed.php:876
+#: includes/widgets/instagram-feed/instagram-feed.php:918
+#: includes/widgets/instagram-feed/instagram-feed.php:934
+#: includes/widgets/instagram-feed/instagram-feed.php:959
+#: includes/widgets/instagram-feed/instagram-feed.php:975
+#: includes/widgets/popup-modal/popup-modal.php:687
+#: includes/widgets/popup-modal/popup-modal.php:723
+#: includes/widgets/popup-modal/popup-modal.php:1575
+#: includes/widgets/popup-modal/popup-modal.php:1723
+#: includes/widgets/product-filters/product-filters.php:1220
+#: includes/widgets/product-filters/product-filters.php:1254
+#: includes/widgets/vertical-menu/vertical-menu.php:237
+#: includes/widgets/vertical-menu/vertical-menu.php:292
+#: includes/widgets/vertical-menu/vertical-menu.php:390
+#: includes/widgets/vertical-menu/vertical-menu.php:444
+#: includes/widgets/vertical-menu/vertical-menu.php:510
+#: includes/widgets/vertical-menu/vertical-menu.php:552
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:199
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:237
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:443
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:464
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:564
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:585
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:625
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:646
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:830
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:874
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:971
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1001
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1084
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1121
+#: modules/elements/gallery/gallery.php:1659
+#: modules/elements/gallery/gallery.php:1808
+#: modules/elements/gallery/gallery.php:1890
+#: modules/elements/gallery/gallery.php:2682
+#: modules/elements/gallery/gallery.php:2781
+#: modules/parallax/extend-controls.php:134
+#: modules/parallax/section-controls.php:133
+#: modules/swatches/admin-product.php:166
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-api.php:30
+msgid "No user id found!"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-api.php:40
+msgid "Successfully cleaned"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-api.php:46
+msgid "Cache not found!"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-api.php:52
+msgid "Unknown provider key"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-handler.php:24
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-handler.php:104
+msgid "User id is not set yet! Please go to settings and set the user id."
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed-handler.php:117
+msgid ""
+"Access token is not set yet! Please go to settings and set the access token."
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:50
+msgid "Layout Settings "
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:57
+msgid "Grid Style"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:62
+msgid "List"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:63
+#: modules/elements/gallery/gallery.php:97
+msgid "Grid"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:64
+msgid "Masonary"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:72
+msgid "Columns Grid"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:77
+msgid "1 Columns"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:78
+msgid "2 Columns"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:79
+msgid "3 Columns"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:80
+msgid "4 Columns"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:81
+msgid "6 Columns"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:91
+msgid "Feed Style"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:104
+msgid "Show Post"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:122
+msgid "Display Settings "
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:129
+msgid "Profile Header"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:144
+msgid "Profile Settings"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:149
+msgid "Only Profile Image"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:150
+msgid "Only Name"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:151
+#: modules/elements/gallery/gallery.php:926
+msgid "Both"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:162
+msgid "Profile Style"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:167
+#: includes/widgets/product-filters/product-filters.php:89
+msgid "Circle"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:168
+#: includes/widgets/product-filters/product-filters.php:85
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:182
+msgid "Show Date"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:198
+#: includes/widgets/popup-modal/popup-modal.php:802
+#: includes/widgets/product-filters/product-filters.php:579
+msgid "Show Icon"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:215
+msgid "Show Comment Box"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:228
+#: modules/elements/gallery/gallery.php:222
+msgid "Show Caption"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:242
+msgid "Enable Follow Button"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:255
+msgid "Follow Button Text"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:258
+msgid "Follow On Instagram"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:259
+msgid "Follow Text"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:267
+msgid "Follow link"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:271
+msgid "Follow Link"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:280
+#: includes/widgets/popup-modal/popup-modal.php:770
+#: includes/widgets/popup-modal/popup-modal.php:900
+#: includes/widgets/popup-modal/popup-modal.php:1333
+#: includes/widgets/product-filters/product-filters.php:549
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:79
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:281
+#: modules/elements/gallery/gallery.php:197
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:311
+msgid "Container"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:319
+msgid "Container margin Bottom"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:415
+#: includes/widgets/instagram-feed/instagram-feed.php:442
+#: includes/widgets/instagram-feed/instagram-feed.php:494
+msgid "Gutter"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:468
+msgid "Container Spacing"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:522
+#: includes/widgets/popup-modal/popup-modal.php:1165
+#: includes/widgets/popup-modal/popup-modal.php:1439
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:396
+msgid "Header"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:552
+#: includes/widgets/instagram-feed/instagram-feed.php:624
+#: includes/widgets/product-filters/product-filters.php:228
+#: modules/swatches/admin-product.php:136
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:573
+#: includes/widgets/instagram-feed/instagram-feed.php:645
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:693
+#: includes/widgets/popup-modal/popup-modal.php:1210
+#: includes/widgets/popup-modal/popup-modal.php:1663
+msgid "Footer"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:770
+#: includes/widgets/instagram-feed/instagram-feed.php:909
+msgid "Favourite"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:811
+#: includes/widgets/instagram-feed/instagram-feed.php:950
+msgid "Comment"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:997
+msgid "Media"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:1021
+#: modules/elements/gallery/gallery.php:545
+#: modules/elements/gallery/gallery.php:601
+#: modules/elements/gallery/gallery.php:627
+#: modules/elements/gallery/gallery.php:775
+#: modules/elements/gallery/gallery.php:800
+#: modules/elements/gallery/gallery.php:959
+#: modules/elements/gallery/gallery.php:1953
+#: modules/elements/gallery/gallery.php:2024
+#: modules/parallax/widget-controls.php:368
+msgid "Scale"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:1044
+msgid "Grayscale"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:1069
+#: includes/widgets/popup-modal/popup-modal.php:234
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1017
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:1139
+#: includes/widgets/instagram-feed/instagram-feed.php:1181
+#: includes/widgets/popup-modal/popup-modal.php:132
+#: includes/widgets/popup-modal/popup-modal.php:182
+#: includes/widgets/popup-modal/popup-modal.php:1486
+#: includes/widgets/popup-modal/popup-modal.php:1534
+#: includes/widgets/popup-modal/popup-modal.php:1605
+#: includes/widgets/product-filters/product-filters.php:1516
+#: includes/widgets/product-filters/product-filters.php:1549
+#: modules/elements/gallery/gallery.php:1136
+#: modules/elements/gallery/gallery.php:1211
+#: modules/elements/gallery/gallery.php:1326
+#: modules/elements/gallery/gallery.php:1400
+#: modules/elements/gallery/gallery.php:1515
+#: modules/elements/gallery/gallery.php:1589
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:1151
+#: includes/widgets/instagram-feed/instagram-feed.php:1193
+#: includes/widgets/product-filters/product-filters.php:1233
+#: includes/widgets/product-filters/product-filters.php:1268
+#: includes/widgets/product-filters/product-filters.php:1528
+#: includes/widgets/product-filters/product-filters.php:1561
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:350
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:842
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:886
+#: modules/elements/gallery/gallery.php:1124
+#: modules/elements/gallery/gallery.php:1199
+#: modules/elements/gallery/gallery.php:1314
+#: modules/elements/gallery/gallery.php:1388
+#: modules/elements/gallery/gallery.php:1503
+#: modules/elements/gallery/gallery.php:1577
+#: modules/elements/gallery/gallery.php:1672
+#: modules/elements/gallery/gallery.php:1821
+#: modules/elements/gallery/gallery.php:2694
+#: modules/elements/gallery/gallery.php:2793
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/instagram-feed/instagram-feed.php:1205
+#: includes/widgets/popup-modal/popup-modal.php:695
+#: includes/widgets/popup-modal/popup-modal.php:731
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:489
+#: modules/elements/gallery/gallery.php:1223
+#: modules/elements/gallery/gallery.php:1412
+#: modules/elements/gallery/gallery.php:1601
+#: modules/elements/gallery/gallery.php:1833
+#: modules/elements/gallery/gallery.php:2825
+msgid "Border Color"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal-handler.php:15
+msgid "Popup Modal"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:59
+msgid "Border Type"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:230
+msgid "Toggler Type"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:236
+msgid "Time"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:241
+msgid "Toggle After (Seconds)"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:251
+msgid "Enable Cookie Consent"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:261
+msgid "Popup Show Type"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:265
+msgid "Modal"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:266
+msgid "Slide"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:271
+msgid "Popup Position"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:275
+msgid "Top Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:276
+msgid "Top Center"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:277
+msgid "Top Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:278
+msgid "Center Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:280
+msgid "Center Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:281
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:282
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:283
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:289
+msgid "Appear From"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:366
+msgid "Maximum Height"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:419
+#: modules/elements/gallery/gallery.php:1897
+msgid "Show Overlay"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:427
+#: includes/widgets/popup-modal/popup-modal.php:1051
+#: includes/widgets/popup-modal/popup-modal.php:1143
+#: includes/widgets/popup-modal/popup-modal.php:1652
+msgid "Close Icon"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:435
+msgid "Show Header"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:443
+msgid "Show Footer"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:450
+#: includes/widgets/popup-modal/popup-modal.php:1058
+msgid "Position"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:460
+#: includes/widgets/popup-modal/popup-modal.php:475
+#: includes/widgets/popup-modal/popup-modal.php:1071
+#: includes/widgets/popup-modal/popup-modal.php:1082
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:490
+#: includes/widgets/popup-modal/popup-modal.php:505
+#: includes/widgets/popup-modal/popup-modal.php:1094
+#: includes/widgets/popup-modal/popup-modal.php:1106
+#: includes/widgets/popup-modal/popup-modal.php:1118
+#: includes/widgets/popup-modal/popup-modal.php:1130
+msgid "Horizontal Position"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:520
+msgid "Entrance Animation"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:527
+#: modules/elements/gallery/gallery.php:334
+#: modules/elements/gallery/gallery.php:2071
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:528
+msgid "Fade In"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:529
+msgid "Fade In Up"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:530
+msgid "Fade In Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:531
+msgid "Fade In Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:532
+msgid "Fade In Down"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:534
+msgid "Zoom In"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:535
+msgid "Zoom In Up"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:536
+msgid "Zoom In Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:537
+msgid "Zoom In Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:538
+msgid "Zoom In Down"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:540
+msgid "Bounce In"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:541
+msgid "Bounce In Up"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:542
+msgid "Bounce In Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:543
+msgid "Bounce In Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:544
+msgid "Bounce In Down"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:546
+msgid "Rotate In"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:547
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:548
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:549
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:550
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:558
+msgid "Duration"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:562
+msgid "Slow"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:564
+msgid "Fast"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:580
+msgid "Popup Background"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:621
+msgid "Overlay Background"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:632
+#: modules/elements/gallery/gallery.php:1747
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:753
+#: includes/widgets/popup-modal/popup-modal.php:971
+msgid "Toggler Button"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:761
+#: includes/widgets/popup-modal/popup-modal.php:1247
+#: includes/widgets/popup-modal/popup-modal.php:1307
+#: modules/elements/gallery/gallery.php:1450
+#: modules/swatches/admin-product.php:196
+msgid "Label"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:763
+msgid "OPEN MODAL"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:794
+msgid "Width (%)"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:817
+#: includes/widgets/product-filters/product-filters.php:606
+msgid "Icon Position"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:821
+msgid "Before"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:822
+msgid "After"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:844
+#: includes/widgets/popup-modal/popup-modal.php:859
+#: includes/widgets/popup-modal/popup-modal.php:1388
+#: includes/widgets/popup-modal/popup-modal.php:1407
+msgid "Spacing"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:876
+#: includes/widgets/popup-modal/popup-modal.php:926
+msgid "Toggler Image"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1009
+msgid "Enable Template"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1017
+msgid ""
+"We know your demands for building a perfect website. You will find all the "
+"functionalities of your imagination here."
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1031
+#: includes/widgets/popup-modal/popup-modal.php:1642
+#: modules/elements/gallery/gallery.php:1872
+#: modules/elements/gallery/gallery.php:1881
+msgid "Overlay"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1038
+msgid "Close Popup OnClick Overlay"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1062
+msgid "Popup Top Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1063
+msgid "Popup Top Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1064
+msgid "Window Top Right"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1065
+msgid "Wondow Top Left"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1172
+msgid "Title Text"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1175
+msgid "This is popup title"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1179
+msgid "Show Subtitle"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1186
+msgid "Subtitle Text"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1192
+msgid "You don't need to waste your time and money anymore."
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1197
+#: modules/elements/gallery/gallery.php:2402
+msgid "Show Divider"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1217
+msgid "Footer Divider"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1224
+msgid "Buttons"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1235
+msgid "CTA"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1249
+msgid "Buy Now"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1256
+#: includes/widgets/popup-modal/popup-modal.php:1316
+msgid "Variant"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1260
+#: includes/widgets/popup-modal/popup-modal.php:1320
+msgid "Filled"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1261
+#: includes/widgets/popup-modal/popup-modal.php:1321
+msgid "Outlined"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1262
+#: includes/widgets/popup-modal/popup-modal.php:1322
+#: includes/widgets/vertical-menu/vertical-menu.php:192
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1272
+msgid "Url"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1273
+msgid "https://www.google.com/"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1282
+msgid "Open in new tab"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1295
+msgid "CLOSE"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1309
+msgid "Close"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1337
+msgid "it will work reverse if `Reverse Order` is enabled."
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1348
+msgid "Space Between"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1377
+msgid "Reverse Order"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1431
+msgid "Popup"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1504
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:163
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1048
+#: modules/elements/gallery/gallery.php:1172
+#: modules/elements/gallery/gallery.php:1236
+#: modules/elements/gallery/gallery.php:1362
+#: modules/elements/gallery/gallery.php:1425
+#: modules/elements/gallery/gallery.php:1551
+#: modules/elements/gallery/gallery.php:1614
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1556
+#: includes/widgets/popup-modal/popup-modal.php:1704
+msgid "Divider"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1733
+msgid "CTA Button"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1760
+msgid "Close Button"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1804
+msgid " ekit-popup-modal__header-with-divider"
+msgstr ""
+
+#: includes/widgets/popup-modal/popup-modal.php:1805
+msgid " ekit-popup-modal__footer-with-divider"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:27
+msgid "Filters"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:36
+msgid "Price Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:38
+#: includes/widgets/product-filters/product-filters.php:108
+#: includes/widgets/product-filters/product-filters.php:151
+#: includes/widgets/product-filters/product-filters.php:201
+#: includes/widgets/product-filters/product-filters.php:295
+#: includes/widgets/product-filters/product-filters.php:337
+#: includes/widgets/product-filters/product-filters.php:377
+#: includes/widgets/product-filters/product-filters.php:417
+#: includes/widgets/product-filters/product-filters.php:457
+#: includes/widgets/product-filters/product-filters.php:527
+msgid "Disabled"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:39
+#: includes/widgets/product-filters/product-filters.php:109
+#: includes/widgets/product-filters/product-filters.php:152
+#: includes/widgets/product-filters/product-filters.php:202
+#: includes/widgets/product-filters/product-filters.php:296
+#: includes/widgets/product-filters/product-filters.php:338
+#: includes/widgets/product-filters/product-filters.php:378
+#: includes/widgets/product-filters/product-filters.php:418
+#: includes/widgets/product-filters/product-filters.php:458
+#: includes/widgets/product-filters/product-filters.php:528
+msgid "Enabled"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:53
+msgid "Price Range"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:54
+#: includes/widgets/product-filters/product-filters.php:138
+#: includes/widgets/product-filters/product-filters.php:165
+#: includes/widgets/product-filters/product-filters.php:216
+#: includes/widgets/product-filters/product-filters.php:309
+#: includes/widgets/product-filters/product-filters.php:351
+#: includes/widgets/product-filters/product-filters.php:391
+#: includes/widgets/product-filters/product-filters.php:431
+#: includes/widgets/product-filters/product-filters.php:471
+#: includes/widgets/vertical-menu/vertical-menu.php:133
+msgid "Type your title here"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:61
+msgid "Min Price"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:71
+msgid "Max Price"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:81
+msgid "Dot Type"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:106
+#: includes/widgets/product-filters/product-filters.php:1582
+msgid "Rating Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:120
+#: includes/widgets/product-filters/product-filters.php:172
+#: includes/widgets/product-filters/product-filters.php:236
+#: includes/widgets/product-filters/product-filters.php:316
+#: includes/widgets/product-filters/product-filters.php:358
+#: includes/widgets/product-filters/product-filters.php:398
+#: includes/widgets/product-filters/product-filters.php:438
+#: includes/widgets/product-filters/product-filters.php:478
+#: includes/widgets/product-filters/product-filters.php:1129
+msgid "Expand Collapse by default"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:137
+msgid "Product rating"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:149
+msgid "Color Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:164
+msgid "Product Colors"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:187
+msgid "Show Color Dot"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:199
+#: includes/widgets/product-filters/product-filters.php:1670
+msgid "Category Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:215
+msgid "Product Categories"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:223
+msgid "Order by"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:227
+msgid "Category order"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:251
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:263
+msgid "Show parent only"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:278
+msgid "Hide empty categories"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:293
+#: modules/elements/gallery/gallery.php:554
+msgid "Image Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:308
+msgid "Product Images"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:335
+msgid "Label Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:350
+msgid "Product Label"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:375
+msgid "Shipping Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:390
+msgid "Shipping"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:415
+msgid "Stock Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:430
+msgid "Stock"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:455
+msgid "On Sale Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:470
+#: includes/widgets/product-filters/screens/onsale.php:4
+msgid "On Sale"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:502
+#: modules/elements/gallery/gallery.php:85
+#: modules/elements/gallery/gallery.php:345
+msgid "Layout"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:511
+msgid "Filter View Mode"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:515
+msgid "Card"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:516
+msgid "Collapse"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:525
+msgid "Enable Container Toggle Button?"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:539
+msgid "Toggle Button Text"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:541
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:542
+#: modules/elements/gallery/gallery.php:2060
+msgid "Filter"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:565
+msgid "Note: Dropdown content with align according to button alignment."
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:622
+msgid "Container Width"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:652
+msgid "Breakpoint"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:657
+msgid "Tablet (> 1025px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:658
+msgid "Mobile (> 768px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:720
+msgid "Common Styles"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:731
+msgid "Title Typography"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:743
+#: includes/widgets/product-filters/product-filters.php:781
+#: includes/widgets/product-filters/product-filters.php:1189
+msgid "Font Size (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:752
+#: includes/widgets/product-filters/product-filters.php:786
+msgid "Line-Height (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:774
+msgid "Body Typography"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:800
+msgid "Heading Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:813
+msgid "Filter Label Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:826
+msgid "Filter Label Hover Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:840
+msgid "Global Font Family"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:856
+msgid "Title padding Bottom"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:880
+msgid "Item gap"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:904
+msgid "Checkbox Style"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:913
+msgid "Checkbox Icon"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:925
+msgid "Checkbox Border Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:940
+msgid "Checked Icon Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:954
+msgid "Checked Background"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:972
+msgid "Margin right"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:996
+msgid "Checkbox Icon Size"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1020
+msgid "Checkbox Size"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1044
+msgid "Vertical position"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1091
+msgid "Attributes"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1108
+msgid "Attribute"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1117
+msgid "Enable attributes"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1144
+msgid "Attributes list"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1162
+msgid "Filter Toggle Button & Container"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1198
+msgid "Line Height (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1247
+msgid "Hover & Active"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1287
+msgid "Border (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1314
+msgid "Padding (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1333
+msgid "Margin (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1353
+msgid "Container Background Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1368
+msgid "Container Border (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1378
+msgid "Container Padding (px)"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1399
+msgid "Container Box Shadow"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1426
+msgid "Price Filter / Range Slider"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1436
+msgid "Slider Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1448
+msgid "Active Slider Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1461
+msgid "Range Pricing Text Color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1474
+msgid "Reset Button"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1484
+msgid "Margin bottom"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1590
+msgid "Rating Icon"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1603
+msgid "Active star color"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1618
+msgid "Space between"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1641
+msgid "Star Size"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1681
+msgid "Sub Category Padding"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1706
+msgid "Collapse Styles"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1717
+msgid "Collapse Container Border"
+msgstr ""
+
+#: includes/widgets/product-filters/product-filters.php:1730
+msgid "Container Padding"
+msgstr ""
+
+#: includes/widgets/product-filters/screens/onsale.php:5
+msgid "Regular Price"
+msgstr ""
+
+#: includes/widgets/product-filters/screens/price.php:37
+msgid "Reset"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:9
+msgid "A widget that display latest posts from all categories"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:11
+msgid "Bascart Latest Posts"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:123
+msgid "Blog Posts"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:136
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:541
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:953
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:142
+msgid "Order By"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:168
+msgid "Filter by Categories"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:180
+msgid "Count of Latest Post"
+msgstr ""
+
+#: includes/widgets/recent-post/widget-class.php:186
+msgid "Post Title Crop:"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu-handler.php:11
+msgid "Vertical menu"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:50
+msgid "Vertical menu settings"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:58
+msgid "Select menu"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:67
+msgid "Badge Position"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:83
+msgid "Toggle"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:94
+msgid "Show Toggle Menu on all pages"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:110
+msgid "Show Toggle only on home"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:114
+msgid "This option allows you to show this menu only for home page"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:132
+msgid "All Categories"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:152
+msgid "Icon Left"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:159
+msgid "Menu Icon Left"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:170
+msgid "Icon Right"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:177
+msgid "Menu Icon Right"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:189
+msgid "Submenu Click Area"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:206
+msgid "Toggle Button"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:320
+msgid "Menu Container"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:362
+msgid "Menu Items"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:463
+msgid "Sub Menu Items"
+msgstr ""
+
+#: includes/widgets/vertical-menu/vertical-menu.php:631
+msgid "Please Select Menu"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart-handler.php:14
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1200
+msgid " item"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart-handler.php:16
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1202
+msgid " items"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart-handler.php:32
+msgid "Woo Mini Cart"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:65
+msgid "Cart Visibility"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:108
+msgid "Cart Button"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:481
+msgid "Item"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:519
+msgid "Border Width"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:602
+msgid "Quantity:"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:661
+msgid "Image:"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:704
+msgid "Remove:"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:914
+msgid "Subtotal"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:983
+msgid "Price:"
+msgstr ""
+
+#: includes/widgets/woo-mini-cart/woo-mini-cart.php:1215
+msgid "view cart"
+msgstr ""
+
+#: modules/custom-css/init.php:43
+msgid "Bascart Custom CSS"
+msgstr ""
+
+#: modules/custom-css/init.php:51
+msgid "Add your own custom CSS here"
+msgstr ""
+
+#: modules/custom-css/init.php:60
+msgid "Custom CSS"
+msgstr ""
+
+#: modules/custom-css/init.php:71
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:24
+msgid "Bascart Gallery"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:42
+msgid "Gallery Content"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:50
+msgid "Filter Label"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:60
+msgid "Add Images"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:98
+msgid "Masonry"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:107
+msgid "Columns"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:126
+msgid "Image Aspect Ratio"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:155
+msgid "Settings"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:162
+msgid "\"All\" Filter Label"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:164
+msgid "All"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:171
+msgid "Content Alignment"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:234
+msgid "Show Description"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:247
+msgid "Show Filter Label"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:259
+msgid "Show Lightbox"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:271
+msgid "Lightbox Icon"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:315
+msgid "Show Image Slideshow"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:317
+msgid "True"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:318
+msgid "Flase"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:330
+msgid "Ordering"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:335
+msgid "Random"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:352
+msgid "Columns Gap"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:379
+msgid "Rows Padding"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:398
+msgid "Rows Margin"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:444
+msgid "Content Padding"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:461
+msgid "Thumbnails"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:544
+#: modules/elements/gallery/gallery.php:576
+#: modules/elements/gallery/gallery.php:749
+#: modules/elements/gallery/gallery.php:1729
+#: modules/elements/gallery/gallery.php:1845
+#: modules/parallax/extend-controls.php:309
+#: modules/parallax/section-controls.php:336
+msgid "Opacity"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:546
+#: modules/elements/gallery/gallery.php:654
+#: modules/elements/gallery/gallery.php:827
+#: modules/parallax/extend-controls.php:198
+#: modules/parallax/section-controls.php:197
+#: modules/parallax/widget-controls.php:265
+msgid "Rotate"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:547
+#: modules/elements/gallery/gallery.php:680
+#: modules/elements/gallery/gallery.php:853
+#: modules/parallax/section-controls.php:221
+msgid "Blur"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:548
+#: modules/elements/gallery/gallery.php:711
+#: modules/elements/gallery/gallery.php:884
+msgid "Gray Scale"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:913
+#: modules/parallax/widget-controls.php:31
+msgid "Tilt"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:922
+msgid "Axis"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:927
+msgid "X Axis"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:928
+msgid "Y Axis"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:939
+msgid "Amount"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:980
+msgid "Depth"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1003
+msgid "Show Glare"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1018
+msgid "Perspective"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1071
+msgid "Caption"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1261
+msgid "Description"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1639
+msgid "Link Icon"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1775
+msgid "Font Size"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1879
+msgid "Multiply"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1880
+msgid "Screen"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1882
+msgid "Darken"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1883
+msgid "Lighten"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1884
+msgid "Color-dodge"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1885
+msgid "Color-burn"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1886
+msgid "Difference"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1887
+msgid "Exclusion"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1888
+msgid "hue"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1889
+msgid "Saturation"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1891
+msgid "Luminosity"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:1921
+#: modules/elements/gallery/gallery.php:1992
+msgid "Blend Mode"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2067
+msgid "Filter Style"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2072
+msgid "Style One"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2073
+msgid "Style Two"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2074
+msgid "Style Three"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2075
+msgid "Style Four"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2076
+msgid "Style Five"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2077
+msgid "Style Six"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2078
+msgid "Style Seven"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2079
+msgid "Style Eight"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2080
+msgid "Style Nine"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2081
+msgid "Style Ten"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2089
+msgid "Nav Fill"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2101
+msgid "Filter Items Alignment"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2113
+msgid "Justify"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2134
+msgid "Filter Alignment"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2641
+msgid "Nav Bottom Spacing"
+msgstr ""
+
+#: modules/elements/gallery/gallery.php:2849
+msgid "Container Style"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:19
+msgid "Parallax Effects"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:26
+#: modules/parallax/section-controls.php:23
+msgid "Background Image Parallax"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:36
+#: modules/parallax/extend-controls.php:382
+#: modules/parallax/section-controls.php:33
+#: modules/parallax/section-controls.php:409
+#: modules/parallax/widget-controls.php:664
+msgid "Speed"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:51
+#: modules/parallax/section-controls.php:49
+msgid "Multi Item Parallax"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:60
+#: modules/parallax/section-controls.php:59
+#: modules/parallax/widget-controls.php:23
+msgid "Effect Type"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:64
+#: modules/parallax/section-controls.php:63
+msgid "Css Animation"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:65
+#: modules/parallax/section-controls.php:64
+msgid "Mouse Move"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:66
+#: modules/parallax/section-controls.php:65
+msgid "On Scroll"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:67
+#: modules/parallax/section-controls.php:66
+msgid "Parallax Tilt"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:74
+#: modules/parallax/section-controls.php:73
+msgid "Item source"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:106
+#: modules/parallax/section-controls.php:105
+msgid "Choose Shape"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:110
+#: modules/parallax/section-controls.php:109
+msgid "Shape 1"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:111
+#: modules/parallax/section-controls.php:110
+msgid "Shape 2"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:112
+#: modules/parallax/section-controls.php:111
+msgid "Shape 3"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:113
+#: modules/parallax/section-controls.php:112
+msgid "Shape 4"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:114
+#: modules/parallax/section-controls.php:113
+msgid "Shape 5"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:115
+#: modules/parallax/section-controls.php:114
+msgid "Shape 6"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:116
+#: modules/parallax/section-controls.php:115
+msgid "Shape 7"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:117
+#: modules/parallax/section-controls.php:116
+msgid "Shape 8"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:118
+#: modules/parallax/section-controls.php:117
+msgid "Shape 9"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:119
+#: modules/parallax/section-controls.php:118
+msgid "Shape 10"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:120
+#: modules/parallax/section-controls.php:119
+msgid "Shape 11"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:121
+#: modules/parallax/section-controls.php:120
+msgid "Shape 12"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:122
+#: modules/parallax/section-controls.php:121
+msgid "Shape 13"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:123
+#: modules/parallax/section-controls.php:122
+msgid "Shape 14"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:152
+#: modules/parallax/section-controls.php:151
+msgid "Auto"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:153
+#: modules/parallax/section-controls.php:152
+msgid "Custom"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:162
+#: modules/parallax/section-controls.php:161
+msgid "Custom Width"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:221
+#: modules/parallax/section-controls.php:248
+msgid "Position X (%)"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:248
+#: modules/parallax/section-controls.php:275
+msgid "Position Y (%)"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:276
+#: modules/parallax/section-controls.php:303
+#: modules/parallax/widget-controls.php:57
+msgid "Animation"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:310
+#: modules/parallax/section-controls.php:337
+msgid "Opacity will be (0-1), default value 1"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:326
+#: modules/parallax/section-controls.php:353
+#: modules/parallax/widget-controls.php:92
+msgid "Animation speed"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:345
+#: modules/parallax/section-controls.php:372
+#: modules/parallax/widget-controls.php:111
+msgid "Animation Iteration Count"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:349
+#: modules/parallax/section-controls.php:376
+#: modules/parallax/widget-controls.php:116
+msgid "Infinite"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:350
+#: modules/parallax/section-controls.php:377
+#: modules/parallax/widget-controls.php:117
+msgid "Unset"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:363
+#: modules/parallax/section-controls.php:390
+#: modules/parallax/widget-controls.php:131
+msgid "Animation Direction"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:368
+#: modules/parallax/section-controls.php:395
+#: modules/parallax/widget-controls.php:137
+msgid "Reverse"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:369
+#: modules/parallax/section-controls.php:396
+#: modules/parallax/widget-controls.php:138
+msgid "Alternate"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:384
+msgid "100"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:393
+#: modules/parallax/section-controls.php:422
+#: modules/parallax/widget-controls.php:682
+msgid "Parallax style"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:397
+#: modules/parallax/extend-controls.php:487
+#: modules/parallax/section-controls.php:426
+#: modules/parallax/section-controls.php:516
+#: modules/parallax/widget-controls.php:649
+#: modules/parallax/widget-controls.php:688
+msgid "X axis"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:398
+#: modules/parallax/extend-controls.php:488
+#: modules/parallax/section-controls.php:427
+#: modules/parallax/section-controls.php:517
+#: modules/parallax/widget-controls.php:650
+#: modules/parallax/widget-controls.php:689
+msgid "Y axis"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:399
+#: modules/parallax/section-controls.php:428
+#: modules/parallax/widget-controls.php:690
+msgid "rotate"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:400
+#: modules/parallax/section-controls.php:429
+#: modules/parallax/widget-controls.php:691
+msgid "rotateX"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:401
+#: modules/parallax/section-controls.php:430
+#: modules/parallax/widget-controls.php:692
+msgid "rotateY"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:402
+#: modules/parallax/section-controls.php:431
+#: modules/parallax/widget-controls.php:693
+msgid "scale"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:403
+#: modules/parallax/section-controls.php:432
+#: modules/parallax/widget-controls.php:694
+msgid "scaleX"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:404
+#: modules/parallax/section-controls.php:433
+#: modules/parallax/widget-controls.php:695
+msgid "scaleY"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:413
+#: modules/parallax/section-controls.php:442
+#: modules/parallax/widget-controls.php:704
+msgid "Parallax Transition "
+msgstr ""
+
+#: modules/parallax/extend-controls.php:414
+#: modules/parallax/section-controls.php:443
+#: modules/parallax/widget-controls.php:705
+msgid ""
+"X, Y and Z Axis will be pixels, Rotate will be degrees (0-180), scale will "
+"be ratio"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:424
+#: modules/parallax/section-controls.php:453
+#: modules/parallax/widget-controls.php:717
+msgid "Smoothness"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:425
+#: modules/parallax/section-controls.php:454
+#: modules/parallax/widget-controls.php:718
+msgid ""
+"factor that slowdown the animation, the more the smoothier (default: 700)"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:438
+#: modules/parallax/section-controls.php:467
+#: modules/parallax/widget-controls.php:733
+msgid "Offset Top"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:439
+#: modules/parallax/extend-controls.php:450
+#: modules/parallax/section-controls.php:468
+#: modules/parallax/section-controls.php:479
+#: modules/parallax/widget-controls.php:736
+#: modules/parallax/widget-controls.php:749
+msgid "default: 0; when the element is visible"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:449
+#: modules/parallax/section-controls.php:478
+#: modules/parallax/widget-controls.php:746
+msgid "Offset Bottom"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:460
+#: modules/parallax/section-controls.php:489
+#: modules/parallax/widget-controls.php:613
+msgid "MaxTilt"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:470
+#: modules/parallax/section-controls.php:499
+#: modules/parallax/widget-controls.php:625
+msgid "Image Scale"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:471
+#: modules/parallax/section-controls.php:500
+#: modules/parallax/widget-controls.php:626
+msgid "2 = 200%, 1.5 = 150%, etc.. Default 1"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:481
+#: modules/parallax/section-controls.php:510
+#: modules/parallax/widget-controls.php:641
+msgid "Disable Axis"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:482
+#: modules/parallax/section-controls.php:511
+#: modules/parallax/widget-controls.php:642
+msgid "What axis should be disabled. Can be X or Y."
+msgstr ""
+
+#: modules/parallax/extend-controls.php:498
+#: modules/parallax/section-controls.php:527
+msgid "Z-index"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:500
+#: modules/parallax/section-controls.php:529
+msgid "2"
+msgstr ""
+
+#: modules/parallax/extend-controls.php:509
+#: modules/parallax/section-controls.php:538
+msgid "Parallax"
+msgstr ""
+
+#: modules/parallax/section-controls.php:16
+#: modules/parallax/widget-controls.php:16
+msgid "Bascart Effects"
+msgstr ""
+
+#: modules/parallax/section-controls.php:553
+msgid "Section Overflow"
+msgstr ""
+
+#: modules/parallax/section-controls.php:557
+msgid "Visible"
+msgstr ""
+
+#: modules/parallax/section-controls.php:558
+msgid "Hidden"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:30
+msgid "CSS3"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:32
+msgid "On scroll"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:33
+msgid "On mouse move"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:44
+msgid "CSS Animation"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:46
+#: modules/parallax/widget-controls.php:597
+msgid "On"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:48
+#: modules/parallax/widget-controls.php:598
+msgid "Off"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:169
+msgid "CSS Transform"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:182
+msgid "Translate"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:198
+msgid "Translate X"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:219
+msgid "Translate Y"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:280
+msgid "Rotate Z"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:324
+msgid "Rotate X"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:345
+msgid "Rotate Y"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:384
+msgid "Scale X"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:409
+msgid "Scale Y"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:477
+msgid "Skew"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:493
+msgid "Skew X"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:514
+msgid "Skew Y"
+msgstr ""
+
+#: modules/parallax/widget-controls.php:594
+msgid "Disable animation in editor "
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:16
+msgid "ElementsKit Sticky"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:24
+#: modules/sticky-content/module.php:37
+msgid "Sticky"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:30
+msgid "Column"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:31
+msgid "Show on Scroll Up"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:42
+msgid "Sticky Until"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:43
+msgid "Section id without starting hash, example \"section1\"."
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:57
+msgid "Sticky Offset"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:75
+msgid "Sticky Background Color"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:89
+#: modules/sticky-content/module.php:52
+msgid "Sticky On"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:92
+msgid "All Devices"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:93
+msgid "Desktop Only"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:94
+msgid "Desktop & Tablet"
+msgstr ""
+
+#: modules/sticky-content/extend-controls.php:108
+msgid "Add \"ekit-sticky--effects\" Class Offset"
+msgstr ""
+
+#: modules/sticky-content/module.php:29
+msgid "Scrolling Effect"
+msgstr ""
+
+#: modules/sticky-content/module.php:58
+msgid "Desktop"
+msgstr ""
+
+#: modules/sticky-content/module.php:59
+msgid "Tablet"
+msgstr ""
+
+#: modules/sticky-content/module.php:60
+msgid "Mobile"
+msgstr ""
+
+#: modules/sticky-content/module.php:73
+msgid "Offset"
+msgstr ""
+
+#: modules/sticky-content/module.php:90
+msgid "Effects Offset"
+msgstr ""
+
+#: modules/sticky-content/module.php:108
+msgid "Stay In Column"
+msgstr ""
+
+#: modules/swatches/admin-product.php:48
+msgid "Select terms"
+msgstr ""
+
+#: modules/swatches/admin-product.php:62
+msgid "Select all"
+msgstr ""
+
+#: modules/swatches/admin-product.php:63
+msgid "Select none"
+msgstr ""
+
+#: modules/swatches/admin-product.php:65
+msgid "Add new"
+msgstr ""
+
+#: modules/swatches/admin-product.php:82
+msgid "Request denied"
+msgstr ""
+
+#: modules/swatches/admin-product.php:86
+msgid "Insufficient data"
+msgstr ""
+
+#: modules/swatches/admin-product.php:90
+msgid "Taxonomy is not exists"
+msgstr ""
+
+#: modules/swatches/admin-product.php:94
+msgid "Term already exists"
+msgstr ""
+
+#: modules/swatches/admin-product.php:110
+msgid "Successfully added"
+msgstr ""
+
+#: modules/swatches/admin-product.php:132
+msgid "Add new term"
+msgstr ""
+
+#: modules/swatches/admin-product.php:142
+msgid "Slug"
+msgstr ""
+
+#: modules/swatches/admin-product.php:155
+msgid "Cancel"
+msgstr ""
+
+#: modules/swatches/admin-product.php:156
+msgid "Add New"
+msgstr ""
+
+#: modules/swatches/admin-product.php:183
+msgid "Upload/Add image"
+msgstr ""
+
+#: modules/swatches/admin-product.php:187
+#: modules/swatches/attribute-hooks.php:168
+msgid "Remove image"
+msgstr ""
+
+#: modules/swatches/attribute-hooks.php:164
+msgid "Upload image"
+msgstr ""
+
+#: modules/swatches/swatches.php:52
+msgid "Shopengine Color"
+msgstr ""
+
+#: modules/swatches/swatches.php:53
+msgid "Shopengine Image"
+msgstr ""
+
+#: modules/swatches/swatches.php:54
+msgid "Shopengine Label"
+msgstr ""
+
+#: modules/swatches/swatches.php:129
+msgid "Choose an image"
+msgstr ""
+
+#: modules/swatches/swatches.php:130
+msgid "Use image"
+msgstr ""
+
+#: modules/ts-wrapper-link/ts-wrapper-link.php:27
+msgid "Wrapper Link"
+msgstr ""
+
+#: modules/ts-wrapper-link/ts-wrapper-link.php:35
+msgid "Link"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Bascart Essentials"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This is a required plugin for Bascart theme."
+msgstr ""
